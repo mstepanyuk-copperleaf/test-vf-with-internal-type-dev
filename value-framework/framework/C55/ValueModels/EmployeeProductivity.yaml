@@ -1,0 +1,49 @@
+code: EmployeeProductivity
+nameId: "Employee Productivity"
+descriptionId: "Employee Productivity is aimed at measuring the effects of working\
+  \ conditions on employee productivity (e.g. improved ability to collaborate, effect\
+  \ on labour hours saved/reallocated, impact on employees’ unproductive time (travel,\
+  \ wait, etc.))"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "EmployeeProductivity"
+  nameId: "Employee Productivity"
+  valueMeasureCode: "EmployeeProductivity"
+  sequence: 7
+questionnaires:
+- code: "Employee Productivity-O"
+  nameId: "Employee Productivity"
+  descriptionId: "Employee Productivity"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfficeEmployees"
+    sequence: 101
+  - measurePromptCode: "OfficeHoursSaved"
+    sequence: 102
+  - measurePromptCode: "OfficeHoursAdditional"
+    sequence: 103
+  - measurePromptCode: "NoFieldEmployees"
+    sequence: 104
+  - measurePromptCode: "FieldHoursSaved"
+    sequence: 105
+  - measurePromptCode: "FieldHoursAdditional"
+    sequence: 106
+  - measurePromptCode: "NoManagerEmployees"
+    sequence: 107
+  - measurePromptCode: "ManagerHoursSaved"
+    sequence: 108
+  - measurePromptCode: "ManagerHoursAdditional"
+    sequence: 109
+  - measurePromptCode: "BenefitProbability"
+    sequence: 110
+  - measurePromptCode: "Rationale"
+    sequence: 111
+  formulas:
+  - measureCode: "EmployeeProductivity"
+    consequenceClassName: "EmployeeProductivityBenefitConsequence"
+    likelihoodClassName: "BenefitLikelihood"

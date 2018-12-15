@@ -1,0 +1,16 @@
+code: "Unit"
+nameId: "Unit"
+descriptionId: "Quantity of one for asset replacement"
+unitType: "UnitQuantity"
+literal:
+  editFormat: "0"
+  displayFormat: "0"
+  symbol: "unit"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

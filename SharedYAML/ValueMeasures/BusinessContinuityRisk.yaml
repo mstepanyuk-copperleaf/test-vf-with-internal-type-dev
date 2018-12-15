@@ -1,0 +1,13 @@
+code: "BusinessContinuityRisk"
+nameId: "Business Continuity Risk"
+descriptionId: "Business Continuity Risk"
+color: "#BD244F"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

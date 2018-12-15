@@ -1,0 +1,12 @@
+code: "OMAAnnualCostMediumConditionUpperBound"
+nameId: "Condition upper bound for assets with Medium ongoing maintenance costs"
+descriptionId: "Condition upper bound for assets with Medium ongoing maintenance costs\
+  \ (i.e. medium condition scores).  Recommended value: 7"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 1
+isCurrencyValue: false
+minimumNumber: 0
+maximumNumber: 10
+listItems: []

@@ -1,0 +1,48 @@
+- code: "EnvironmentalStewardship"
+  nameId: "Environmental Stewardship"
+  descriptionId: "Environmental Stewardship"
+  sequence: 1
+- code: "Safety & Security"
+  nameId: "Safety & Security"
+  descriptionId: "Safety & Security"
+  sequence: 6
+- code: "Stewardship"
+  nameId: "Stewardship"
+  descriptionId: "Stewardship"
+  sequence: 7
+- code: "Stakeholders & Community"
+  nameId: "Stakeholders & Community"
+  descriptionId: "Stakeholders & Community"
+  sequence: 8
+- code: "Operations & Reliability"
+  nameId: "Operations & Reliability"
+  descriptionId: "Operations & Reliability"
+  sequence: 9
+- code: "Financial"
+  nameId: "Financial"
+  descriptionId: "Maximize cost savings and increase efficiency"
+  sequence: 2
+- code: "AssetModels"
+  nameId: "Asset Models"
+  descriptionId: "Asset Models"
+  sequence: 11
+- code: "Benefits"
+  nameId: "Benefits"
+  descriptionId: "Benefits realized by the alternative"
+  sequence: 12
+- code: "Customers"
+  nameId: "Customers"
+  descriptionId: ""
+  sequence: 10002
+- code: "Environment"
+  nameId: "Environment"
+  descriptionId: ""
+  sequence: 10003
+- code: "Healthandwellbeing"
+  nameId: "Health and safety and wellbeing"
+  descriptionId: ""
+  sequence: 10006
+- code: "Businessimpact"
+  nameId: "Business impact"
+  descriptionId: ""
+  sequence: 10007

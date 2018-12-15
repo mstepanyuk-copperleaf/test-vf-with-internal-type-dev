@@ -1,0 +1,8 @@
+code: CostsIncurredAfterThisInvestmentIsUndertaken
+descriptionId: "Costs incurred after this investment is undertaken ($)"
+customFieldCode: "CostsIncurredAfterThisInvestmentIsUndertaken"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Costs incurred after"
+promptTextId: "Costs incurred after this investment is undertaken ($)"

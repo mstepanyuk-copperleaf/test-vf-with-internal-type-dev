@@ -1,0 +1,8 @@
+code: "RiskConsequence"
+nameId: "Risk Consequence"
+descriptionId: "Consequence levels per Risk Matrix"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "FailureSeverity"
+listItems: []

@@ -1,0 +1,8 @@
+code: TypeOfContract
+descriptionId: ""
+customFieldCode: "TypeOfContract"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Type of Contract"
+promptTextId: "What type of contract mechanism are you contemplating?"

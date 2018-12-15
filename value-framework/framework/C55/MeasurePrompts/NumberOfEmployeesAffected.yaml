@@ -1,0 +1,9 @@
+code: NumberOfEmployeesAffected
+descriptionId: ""
+customFieldCode: "NumberOfEmployeesAffected"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many employees a"
+promptTextId: "How many employees are affected by these workplace improvements?"
+defaultValue: "0"

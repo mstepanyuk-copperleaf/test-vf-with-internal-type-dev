@@ -1,0 +1,13 @@
+code: "EmissionLevels"
+nameId: "Emission Levels"
+descriptionId: "Emission Levels"
+color: "#23FA60"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,9 @@
+code: "NoOfVehicles"
+nameId: "Number of vehicles"
+descriptionId: "Number of vehicles"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+minimumNumber: 0
+maximumNumber: 1000
+listItems: []

@@ -1,0 +1,6 @@
+code: "AssetEffectiveAge"
+nameId: "Effective age of asset"
+descriptionId: "Book age of asset"
+type: "Date"
+isCloneable: true
+listItems: []

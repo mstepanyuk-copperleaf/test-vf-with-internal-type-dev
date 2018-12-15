@@ -1,0 +1,9 @@
+code: "NoOfficeEmployees"
+nameId: "NoOfficeEmployees"
+descriptionId: "How many office employees will be impacted, following this investment?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 1000000
+listItems: []

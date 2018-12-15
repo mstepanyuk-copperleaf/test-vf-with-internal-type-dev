@@ -1,0 +1,56 @@
+code: PublicPropertyRisk
+nameId: "Public Property Risk"
+descriptionId: "Public Property Risk"
+groupCode: "Safety & Security"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "PublicPropertyRisk"
+  nameId: "Public Property Risk"
+  valueMeasureCode: "PublicPropertyRisk"
+  sequence: 46
+questionnaires:
+- code: "Automated Risk Mitigation-Public Property Risk-O"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Public Property Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "PublicPropertyRisk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "Manual Risk-Public Property Risk-B"
+  nameId: "Manual Risk"
+  descriptionId: "Public Property Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 38
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 110
+  - measurePromptCode: "Rationale"
+    sequence: 176
+  formulas:
+  - measureCode: "PublicPropertyRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "Manual Risk-Public Property Risk-O"
+  nameId: "Manual Risk"
+  descriptionId: "Public Property Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 54
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 126
+  formulas:
+  - measureCode: "PublicPropertyRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"

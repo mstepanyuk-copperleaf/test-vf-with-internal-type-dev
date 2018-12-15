@@ -1,0 +1,13 @@
+code: "AssetEffectiveAge"
+nameId: "Asset effective age"
+descriptionId: "Asset effective age"
+color: "#800230"
+consqUnitCode: "Year"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

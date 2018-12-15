@@ -1,0 +1,9 @@
+code: "ConditionScore"
+nameId: "Condition Score"
+descriptionId: "The condition score of an asset."
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 1
+maximumNumber: 10
+listItems: []

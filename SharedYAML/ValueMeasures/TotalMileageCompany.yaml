@@ -1,0 +1,13 @@
+code: "TotalMileageCompany"
+nameId: "Total mileage – Company"
+descriptionId: "Total mileage – Company"
+color: "#800215"
+consqUnitCode: "Mile"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,7 @@
+code: "ContributesToLostGeneration"
+nameId: "Contributes to Lost Generation"
+descriptionId: ""
+type: "CheckBox"
+isMultiline: false
+isCloneable: true
+listItems: []

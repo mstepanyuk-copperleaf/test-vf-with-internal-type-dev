@@ -1,0 +1,14 @@
+code: "RenewableCapacityKPI"
+nameId: "Renewable Capacity - KPI"
+descriptionId: "Intended to track the change in renewable capacity across portfolios\
+  \ and just measures the addition of renewable generation to the portfolio."
+color: "#F25252"
+consqUnitCode: "Megawatt"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

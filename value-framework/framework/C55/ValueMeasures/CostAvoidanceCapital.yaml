@@ -1,0 +1,13 @@
+code: "CostAvoidanceCapital"
+nameId: "Cost Avoidance - Capital"
+descriptionId: "Cost Avoidance - Capital"
+color: "#23FA46"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

@@ -1,0 +1,16 @@
+code: BudgetImpactOrProductivityGain
+nameId: "Budget Impact or Productivity Gain"
+descriptionId: "Budget Impact or Productivity Gain"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) Budget Impact"
+  nameId: "A) Budget Impact"
+  value: 1
+  isObsolete: false
+- code: "B) Productivity Gain"
+  nameId: "B) Productivity Gain"
+  value: 2
+  isObsolete: false

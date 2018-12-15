@@ -1,0 +1,13 @@
+code: "EmployeeContractorSafetyRisk"
+nameId: "Employee & Contractor Safety Risk"
+descriptionId: "Employee & Contractor Safety Risk"
+color: "#CC1C0A"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,10 @@
+code: "GHGValue"
+nameId: "GHG Value ($ / Ton CO2 equivalent)"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 10000
+listItems: []

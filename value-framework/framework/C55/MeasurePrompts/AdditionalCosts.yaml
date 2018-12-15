@@ -1,0 +1,8 @@
+code: AdditionalCosts
+descriptionId: "Additional Costs ($)"
+customFieldCode: "AdditionalCosts"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Additional Costs ($)"
+promptTextId: "Additional Costs ($)"

@@ -1,0 +1,26 @@
+code: ProvenImplementationMethodology
+nameId: "Proven Implementation Methodology"
+descriptionId: "Proven Implementation Methodology"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) Not clear or too early to determine"
+  nameId: "A) Not clear or too early to determine"
+  value: 0.021
+  isObsolete: false
+- code: "B) Expecting vendor/system integrator to provide this and no experience internally\
+    \ with methodology"
+  nameId: "B) Expecting vendor/system integrator to provide this and no experience\
+    \ internally with methodology"
+  value: 0.0168333333
+  isObsolete: false
+- code: "C) Was successfully used on at least one project in the past"
+  nameId: "C) Was successfully used on at least one project in the past"
+  value: 0.0126666667
+  isObsolete: false
+- code: "D) Commercially proven methodology"
+  nameId: "D) Commercially proven methodology"
+  value: 0.0085
+  isObsolete: false

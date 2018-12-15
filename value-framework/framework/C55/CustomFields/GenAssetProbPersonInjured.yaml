@@ -1,0 +1,9 @@
+code: GenAssetProbPersonInjured
+nameId: "Gen Asset Prob Person Injured"
+descriptionId: "Gen Asset Prob Person Injured"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100
+listItems: []

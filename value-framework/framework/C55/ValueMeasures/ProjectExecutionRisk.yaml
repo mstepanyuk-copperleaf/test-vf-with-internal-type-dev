@@ -1,0 +1,13 @@
+code: "ProjectExecutionRisk"
+nameId: "Project Execution Risk"
+descriptionId: "Project Execution Risk"
+color: "#23FA19"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "Ignore"

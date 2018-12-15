@@ -1,0 +1,10 @@
+code: CustomerCostSavings
+descriptionId: "Enter the savings that customers will see after the investment is\
+  \ completed."
+customFieldCode: "CustomerCostSavings"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected total of annual customer cost savings resulting\
+  \ from this investment?"

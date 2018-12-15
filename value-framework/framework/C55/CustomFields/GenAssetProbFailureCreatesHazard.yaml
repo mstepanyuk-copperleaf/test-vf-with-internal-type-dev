@@ -1,0 +1,9 @@
+code: GenAssetProbFailureCreatesHazard
+nameId: "Gen Asset Prob Failure Creates Hazard"
+descriptionId: "Gen Asset Prob Failure Creates Hazard"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100
+listItems: []

@@ -1,0 +1,9 @@
+code: VendorIndustryExperience
+descriptionId: ""
+customFieldCode: "VendorIndustryExperience"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Vendor Industry Expe"
+promptTextId: "Are vendor or SI personnel familiar with subject matter (including\
+  \ industry experience)?"

@@ -1,0 +1,9 @@
+code: "AssetBookAge"
+descriptionId: "Please enter an estimate of the number of years the asset is likely\
+  \ to remain in-service."
+customFieldCode: "AssetBookAge"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "What is the useful l"
+promptTextId: "What is the useful life of the asset (Years)?"

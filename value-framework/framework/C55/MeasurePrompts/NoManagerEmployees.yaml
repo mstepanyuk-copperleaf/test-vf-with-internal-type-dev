@@ -1,0 +1,8 @@
+code: "NoManagerEmployees"
+descriptionId: ""
+customFieldCode: "NoManagerEmployees"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many M&E are imp"
+promptTextId: "How many M&E are impacted , following this investment?"

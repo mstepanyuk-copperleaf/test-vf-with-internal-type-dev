@@ -1,0 +1,64 @@
+code: BusinessContinuityRisk
+nameId: "Business Continuity Risk"
+descriptionId: "Business Continuity Risk"
+groupCode: "Operations & Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "BusinessContinuityRisk"
+  nameId: "Business Continuity Risk"
+  valueMeasureCode: "BusinessContinuityRisk"
+  sequence: 8
+questionnaires:
+- code: "Automated Risk Mitigation-Business Continuity Risk-O"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Business Continuity Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "BusinessContinuityRisk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "Business Continuity Risk-B"
+  nameId: "Business Continuity Risk"
+  descriptionId: "Business Continuity Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "BusinessContinuityEmployeesAffected"
+    sequence: 12
+  - measurePromptCode: "BusinessContinuityImpactLevel"
+    sequence: 84
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 153
+  - measurePromptCode: "TimeToRecover"
+    sequence: 170
+  - measurePromptCode: "Rationale"
+    sequence: 193
+  formulas:
+  - measureCode: "BusinessContinuityRisk"
+    consequenceClassName: "BusinessContinuityConsequence"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "Business Continuity Risk-O"
+  nameId: "Business Continuity Risk"
+  descriptionId: "Business Continuity Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "BusinessContinuityEmployeesAffected"
+    sequence: 1
+  - measurePromptCode: "BusinessContinuityImpactLevel"
+    sequence: 2
+  - measurePromptCode: "TimeToRecover"
+    sequence: 3
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 4
+  formulas:
+  - measureCode: "BusinessContinuityRisk"
+    consequenceClassName: "BusinessContinuityConsequence"
+    likelihoodClassName: "RiskLikelihoodManual"

@@ -1,0 +1,13 @@
+code: "CostAvoidanceOM"
+nameId: "Cost Avoidance - O/M"
+descriptionId: "Cost Avoidance - O/M"
+color: "#23FA47"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

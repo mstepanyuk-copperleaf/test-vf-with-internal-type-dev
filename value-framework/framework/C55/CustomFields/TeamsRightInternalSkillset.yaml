@@ -1,0 +1,24 @@
+code: TeamsRightInternalSkillset
+nameId: "Team's Right Internal Skillset"
+descriptionId: "Team's Right Internal Skillset"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) Skills inventory yet to be defined"
+  nameId: "A) Skills inventory yet to be defined"
+  value: 0.0277
+  isObsolete: false
+- code: "B) Identified the skillset but yet to inventory"
+  nameId: "B) Identified the skillset but yet to inventory"
+  value: 0.0221333333
+  isObsolete: false
+- code: "C) Partial match of team's skills to skills inventory"
+  nameId: "C) Partial match of team's skills to skills inventory"
+  value: 0.0165666667
+  isObsolete: false
+- code: "D) All required skills identified and available to the project"
+  nameId: "D) All required skills identified and available to the project"
+  value: 0.011
+  isObsolete: false

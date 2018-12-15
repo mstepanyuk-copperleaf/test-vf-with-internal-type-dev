@@ -1,0 +1,8 @@
+code: "RiskConsequence"
+descriptionId: "Consequence levels per Risk Matrix"
+customFieldCode: "RiskConsequence"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Risk Consequence (an"
+promptTextId: "Risk Consequence (annual)?"

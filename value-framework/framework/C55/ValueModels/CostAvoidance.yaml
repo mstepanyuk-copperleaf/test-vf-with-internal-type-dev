@@ -1,0 +1,77 @@
+code: CostAvoidance
+nameId: "Cost Avoidance"
+descriptionId: "Cost Avoidance"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CostAvoidanceFinancialBenefits"
+  nameId: "Financial Benefits"
+  valueMeasureCode: "FinancialBenefit"
+  sequence: 65
+- code: "CostAvoidanceOMBudgetSavings"
+  nameId: "O&M Budget Savings"
+  valueMeasureCode: "OMBudgetSavings"
+  sequence: 69
+questionnaires:
+- code: "Automated Cost Avoidance-O"
+  nameId: "Automated Cost Avoidance"
+  descriptionId: "Cost Avoidance  Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "CostAvoidanceFinancialBenefits"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+  - measureCode: "CostAvoidanceOMBudgetSavings"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+- code: "Cost Avoidance-B"
+  nameId: "Cost Avoidance"
+  descriptionId: "Cost Avoidance"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "CostsIncurredIfThisInvestmentIsNotUndertaken"
+    sequence: 13
+  - measurePromptCode: "HoursIncurredIfThisInvestmentIsNotUndertaken"
+    sequence: 85
+  - measurePromptCode: "AccountType"
+    sequence: 154
+  - measurePromptCode: "BenefitProbability"
+    sequence: 158
+  - measurePromptCode: "Rationale"
+    sequence: 194
+  formulas:
+  - measureCode: "CostAvoidanceFinancialBenefits"
+    consequenceClassName: "CostAvoidanceTotalConsequenceBaseline"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "CostAvoidanceOMBudgetSavings"
+    consequenceClassName: "CostAvoidanceOMAConsequenceBaseline"
+    likelihoodClassName: "BenefitLikelihood"
+- code: "Cost Avoidance-O"
+  nameId: "Cost Avoidance"
+  descriptionId: "Cost Avoidance"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "CostsIncurredAfterThisInvestmentIsUndertaken"
+    sequence: 14
+  - measurePromptCode: "HoursIncurredIfThisInvestmentIsUndertaken"
+    sequence: 86
+  - measurePromptCode: "AccountType"
+    sequence: 155
+  - measurePromptCode: "BenefitProbability"
+    sequence: 159
+  - measurePromptCode: "Rationale"
+    sequence: 195
+  formulas:
+  - measureCode: "CostAvoidanceFinancialBenefits"
+    consequenceClassName: "CostAvoidanceTotalConsequenceOutcome"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "CostAvoidanceOMBudgetSavings"
+    consequenceClassName: "CostAvoidanceOMAConsequenceOutcome"
+    likelihoodClassName: "BenefitLikelihood"

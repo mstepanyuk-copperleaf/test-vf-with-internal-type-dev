@@ -1,0 +1,13 @@
+code: "EnvironmentalBenefit"
+nameId: "Environmental Benefit"
+descriptionId: "Environmental Benefit"
+color: "#72c519"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,76 @@
+code: ResidualValue
+nameId: "Residual value"
+descriptionId: "A model to determine asset residual value."
+groupCode: "Financial"
+mustImpact: false
+investmentApplicability: "NotApplicable"
+assetTypes:
+- assetTypeCode: "Filter"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Governor"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Lateral"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "LTS"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "LTSSleeve"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "LTSValve"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Main"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Metering"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Odour"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Preheating"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "PressureControl"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Riser"
+  applicability: "Optional"
+  hasCommonBaseline: true
+- assetTypeCode: "Service"
+  applicability: "Optional"
+  hasCommonBaseline: true
+measures:
+- code: "AssetEffectiveAge"
+  nameId: "Asset Effective Age"
+  valueMeasureCode: "AssetEffectiveAge"
+  sequence: 1
+- code: "Assetresidualvalue"
+  nameId: "Asset Residual Value"
+  valueMeasureCode: "AssetResidualValue"
+  sequence: 2
+questionnaires:
+- code: "Residualvalueresidual"
+  nameId: "Residual value"
+  descriptionId: "A questionnaire to evaluate the impact of asset residual value."
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "AssetEffectiveAge"
+    sequence: 1
+  - measurePromptCode: "AssetValue"
+    sequence: 2
+  - measurePromptCode: "AssetBookAge"
+    sequence: 3
+  - measurePromptCode: "MandComment"
+    sequence: 4
+  formulas:
+  - measureCode: "AssetEffectiveAge"
+    consequenceClassName: "ResValAssetAge"
+  - measureCode: "Assetresidualvalue"
+    consequenceClassName: "ResValAssetValue"

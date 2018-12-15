@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  convert:
+    image: 415504675997.dkr.ecr.us-west-2.amazonaws.com/copperleaf/vf-dev-tools
+    command: yaml2xlsx\\yaml2xlsx.py c:\\files\\value-framework\\framework\ c:\\files\\framework-output.xlsx --release --org $CONVERT_ORG --proj $CONVERT_PROJECT --branch $CONVERT_BRANCH --commit $CONVERT_COMMIT
+    volumes:
+      - "${WORKSPACE:-.}/:C:/files"
+  unit_tests:
+    image: vflibrary:${GIT_COMMIT:-dev}
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    command: cmd /C ".\value-framework\framework\C55\MeasureFormulas\packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe .\value-framework\framework\C55\MeasureFormulas\MeasureFormula.Tests\bin\CI\MeasureFormula.Tests.dll --result test_results\TestResult.xml --result=test_results\summary.txt;transform=docker\summary.xslt  --result=test_results\one-liner.txt;transform=docker\one-liner.xslt"
+    volumes:
+      - "..\\test_results:C:\\build\\test_results"
+  ui_tests:
+    image: vflibrary:${GIT_COMMIT:-dev}
+    environment:
+      AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+      AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
+      AWS_REGION: us-west-2
+      BUILD_NUMBER: "${BUILD_NUMBER:-dev}"
+      C55_SERVER_URL: ${C55_SERVER_URL:-http://vfldev.c55.copperleaf.cloud/BASE_DEV/}
+    command: cmd /C ".\value-framework\framework\C55\MeasureFormulas\packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe .\value-framework\framework\C55\MeasureFormulas\MeasureFormula.UITests\bin\CI\MeasureFormula.UITests.dll --result test_results\UITestResult.xml --result=test_results\ui-summary.txt;transform=docker\summary.xslt  --result=test_results\ui-one-liner.txt;transform=docker\one-liner.xslt"
+    volumes:
+      - "..\\test_results:C:\\build\\test_results"
+networks:
+  default:
+    external:
+      name: nat

@@ -1,0 +1,10 @@
+code: "AverageTotalHandlingTimePerCall"
+nameId: "Average total handling time per call (s)"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 10000
+listItems: []

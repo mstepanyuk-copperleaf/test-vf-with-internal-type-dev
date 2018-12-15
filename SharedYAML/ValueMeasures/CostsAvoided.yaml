@@ -1,0 +1,13 @@
+code: "CostsAvoided"
+nameId: "TOTEX - Saving"
+descriptionId: "Costs Avoided"
+color: "#5C8CDB"
+consqUnitCode: "PoundSterling"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

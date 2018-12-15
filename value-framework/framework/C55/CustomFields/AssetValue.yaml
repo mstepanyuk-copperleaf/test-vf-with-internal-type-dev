@@ -1,0 +1,9 @@
+code: "AssetValue"
+nameId: "Asset value"
+descriptionId: "Asset value"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 5000000
+listItems: []

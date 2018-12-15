@@ -1,0 +1,9 @@
+code: "VVO"
+descriptionId: "Check this box if the energy savings in this Investment are achieved\
+  \ through VoltVar optimization and should count towards the SB2814 target."
+customFieldCode: "VVO"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Does this project re"
+promptTextId: "Does this project result in VoltVar optimization of this line?"

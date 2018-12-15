@@ -1,0 +1,9 @@
+code: "CostOfComplaint"
+descriptionId: "Please enter the average cost per complaint. If the field is left\
+  \ empty, the model assumes a default value of £450.00 per complaint."
+customFieldCode: "CostOfComplaint"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "What is the cost of "
+promptTextId: "What is the cost of complaint?"

@@ -1,0 +1,8 @@
+code: MethodologyAndTrackRecord
+descriptionId: ""
+customFieldCode: "MethodologyAndTrackRecord"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Methodology and Trac"
+promptTextId: "Explain the methodology and the track record"

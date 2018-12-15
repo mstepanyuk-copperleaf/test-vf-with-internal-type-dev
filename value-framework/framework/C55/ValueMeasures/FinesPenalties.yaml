@@ -1,0 +1,13 @@
+code: "FinesPenalties"
+nameId: "Fines & Penalties"
+descriptionId: "Fines & Penalties"
+color: "#AADD33"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

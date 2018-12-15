@@ -1,0 +1,9 @@
+code: "CostsIncurredAfterThisInvestmentIsUndertaken"
+nameId: "Costs incurred after this investment is undertaken"
+descriptionId: "Costs incurred after this investment is undertaken"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 10000000000
+listItems: []

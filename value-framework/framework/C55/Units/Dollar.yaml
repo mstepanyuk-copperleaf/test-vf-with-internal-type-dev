@@ -1,0 +1,16 @@
+code: "Dollar"
+nameId: "Dollar"
+descriptionId: "Dollar"
+unitType: "Currency"
+literal:
+  editFormat: "#,###,##0.##"
+  displayFormat: "$#,###,##0;($#,###,##0);$0"
+  symbol: "$"
+thousands:
+  editFormat: "0,.#####"
+  displayFormat: "$#,##0,k;($#,##0,k);$0k"
+  symbol: "$K"
+millions:
+  editFormat: "0,,.########"
+  displayFormat: "$#,##0,,M;($#,##0,,M);$0M"
+  symbol: "$M"

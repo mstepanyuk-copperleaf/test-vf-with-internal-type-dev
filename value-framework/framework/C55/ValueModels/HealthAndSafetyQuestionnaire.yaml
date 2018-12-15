@@ -1,0 +1,295 @@
+code: HealthAndSafetyQuestionnaire
+nameId: "Health & Safety - Questionnaire"
+descriptionId: "A model to evaluate the impact of health and safety."
+groupCode: "Healthandwellbeing"
+mustImpact: false
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "HealthAndSafetyRisk"
+  nameId: "Health and Safety Risk"
+  valueMeasureCode: "HealthAndSafetyRisk"
+  sequence: 10
+- code: "HealthAndSafetyRiskCarAccidents"
+  nameId: "Health and Safety Risk (Car Accidents)"
+  valueMeasureCode: "HealthAndSafetyRiskCarAccidents"
+  sequence: 16
+- code: "HealthAndSafetyRiskDSEInjuries"
+  nameId: "Health and Safety Risk (DSE Injuries)"
+  valueMeasureCode: "HealthAndSafetyRiskDSEInjuries"
+  sequence: 14
+- code: "HealthAndSafetyRiskFatalities"
+  nameId: "Health and Safety Risk (Fatalities)"
+  valueMeasureCode: "HealthAndSafetyRiskFatalities"
+  sequence: 9
+- code: "HealthAndSafetyRiskMajorInjuries"
+  nameId: "Health and Safety Risk (Major Injuries)"
+  valueMeasureCode: "HealthAndSafetyRiskMajorInjuries"
+  sequence: 8
+- code: "HealthAndSafetyRiskMinorInjuries"
+  nameId: "Health and Safety Risk (Minor Injuries)"
+  valueMeasureCode: "HealthAndSafetyRiskMinorInjuries"
+  sequence: 7
+- code: "HealthAndSafetyRiskOtherInjuries"
+  nameId: "Health and Safety Risk (Other Injuries)"
+  valueMeasureCode: "HealthAndSafetyRiskOtherInjuries"
+  sequence: 15
+- code: "NumberOfCarAccidents"
+  nameId: "Number of Car Accidents"
+  valueMeasureCode: "NumberOfCarAccidents"
+  sequence: 12
+- code: "NumberOfDSEInjuries"
+  nameId: "Number of DSE Injuries"
+  valueMeasureCode: "NumberOfDSEInjuries"
+  sequence: 11
+- code: "NumberOfMemberOfPublicFatalities"
+  nameId: "Number of Member of Public Fatalities"
+  valueMeasureCode: "NumberOfMemberOfPublicFatalities"
+  sequence: 6
+- code: "NumberOfMemberOfPublicMajorInjuries"
+  nameId: "Number of Member of Public Major Injuries"
+  valueMeasureCode: "NumberOfMemberOfPublicMajorInjuries"
+  sequence: 5
+- code: "NumberOfMemberOfPublicMinorInjuries"
+  nameId: "Number of Member of Public Minor Injuries"
+  valueMeasureCode: "NumberOfMemberOfPublicMinorInjuries"
+  sequence: 4
+- code: "NumberOfOperativeFatalities"
+  nameId: "Number of Operative Fatalities"
+  valueMeasureCode: "NumberOfOperativeFatalities"
+  sequence: 3
+- code: "NumberOfOperativeMajorInjuries"
+  nameId: "Number of Operative Major Injuries"
+  valueMeasureCode: "NumberOfOperativeMajorInjuries"
+  sequence: 2
+- code: "NumberOfOperativeMinorInjuries"
+  nameId: "Number of Operative Minor Injuries"
+  valueMeasureCode: "NumberOfOperativeMinorInjuries"
+  sequence: 1
+- code: "NumberOfOtherInjuries"
+  nameId: "Number of Other Injuries"
+  valueMeasureCode: "NumberOfOtherInjuries"
+  sequence: 13
+questionnaires:
+- code: "H&S - General baseline"
+  nameId: "H&S - General"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ProbAssetFailureEvent"
+    sequence: 1
+  - measurePromptCode: "NumberOfOperativesAffected"
+    sequence: 2
+  - measurePromptCode: "NumberOfMembersOfPublicAffected"
+    sequence: 3
+  - measurePromptCode: "ProbabilityOfOperativeMinorInjury"
+    sequence: 4
+  - measurePromptCode: "ProbabilityOfOperativeMajorInjury"
+    sequence: 5
+  - measurePromptCode: "ProbabilityOfOperativeFatality"
+    sequence: 6
+  - measurePromptCode: "ProbabilityOfMemberOfPublicMinorInjury"
+    sequence: 7
+  - measurePromptCode: "ProbabilityOfMemberOfPublicMajorInjury"
+    sequence: 8
+  - measurePromptCode: "ProbabilityOfMemberOfPublicFatality"
+    sequence: 9
+  - measurePromptCode: "Comment"
+    sequence: 10
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskGeneralTotal"
+  - measureCode: "HealthAndSafetyRiskFatalities"
+    consequenceClassName: "HSFataltyRisk"
+  - measureCode: "HealthAndSafetyRiskMajorInjuries"
+    consequenceClassName: "HSMajorInjuryRisk"
+  - measureCode: "HealthAndSafetyRiskMinorInjuries"
+    consequenceClassName: "HSMinorInjuryRisk"
+  - measureCode: "NumberOfMemberOfPublicFatalities"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSPublicFatalities"
+  - measureCode: "NumberOfMemberOfPublicMajorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSPublicMajorInjuries"
+  - measureCode: "NumberOfMemberOfPublicMinorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSPublicMinorInjuries"
+  - measureCode: "NumberOfOperativeFatalities"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSOperativeFatalities"
+  - measureCode: "NumberOfOperativeMajorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSOperativeMajorInjuries"
+  - measureCode: "NumberOfOperativeMinorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSOperativeMinorInjuries"
+- code: "H&S - Car accidents baseline"
+  nameId: "H&S - Car accidents"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: true
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfAccidents"
+    sequence: 1
+  - measurePromptCode: "Comment"
+    sequence: 2
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskCarTotal"
+  - measureCode: "HealthAndSafetyRiskCarAccidents"
+    consequenceClassName: "HSCarAccidentRisk"
+  - measureCode: "NumberOfCarAccidents"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSCarAccidents"
+- code: "H&S - Car accidents residual"
+  nameId: "H&S - Car accidents"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "PercentReduction"
+    sequence: 3
+  - measurePromptCode: "Comment"
+    sequence: 4
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskCarTotal"
+  - measureCode: "HealthAndSafetyRiskCarAccidents"
+    consequenceClassName: "HSCarAccidentRisk"
+  - measureCode: "NumberOfCarAccidents"
+    consequenceClassName: "IdentityFormulaScaledEndOfSpend"
+    likelihoodClassName: "HSCarAccidentsOutcome"
+- code: "H&S - DSE injury baseline"
+  nameId: "H&S - DSE injury"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: true
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfInjuriesDSE"
+    sequence: 1
+  - measurePromptCode: "Comment"
+    sequence: 2
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskDSETotal"
+  - measureCode: "HealthAndSafetyRiskDSEInjuries"
+    consequenceClassName: "HSDSEInjuryRisk"
+  - measureCode: "NumberOfDSEInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSDSEInjuries"
+- code: "H&S - DSE injury residual"
+  nameId: "H&S - DSE injury"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "PercentReduction"
+    sequence: 3
+  - measurePromptCode: "Comment"
+    sequence: 4
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskDSETotal"
+  - measureCode: "HealthAndSafetyRiskDSEInjuries"
+    consequenceClassName: "HSDSEInjuryRisk"
+  - measureCode: "NumberOfDSEInjuries"
+    consequenceClassName: "IdentityFormulaScaledEndOfSpend"
+    likelihoodClassName: "HSDSEinjuriesOutcome"
+- code: "H&S - General residual"
+  nameId: "H&S - General"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ProbAssetFailureEvent"
+    sequence: 11
+  - measurePromptCode: "NumberOfOperativesAffected"
+    sequence: 12
+  - measurePromptCode: "NumberOfMembersOfPublicAffected"
+    sequence: 13
+  - measurePromptCode: "ProbabilityOfOperativeMinorInjury"
+    sequence: 14
+  - measurePromptCode: "ProbabilityOfOperativeMajorInjury"
+    sequence: 15
+  - measurePromptCode: "ProbabilityOfOperativeFatality"
+    sequence: 16
+  - measurePromptCode: "ProbabilityOfMemberOfPublicMinorInjury"
+    sequence: 17
+  - measurePromptCode: "ProbabilityOfMemberOfPublicMajorInjury"
+    sequence: 18
+  - measurePromptCode: "ProbabilityOfMemberOfPublicFatality"
+    sequence: 19
+  - measurePromptCode: "Comment"
+    sequence: 20
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskGeneralTotal"
+  - measureCode: "HealthAndSafetyRiskFatalities"
+    consequenceClassName: "HSFataltyRisk"
+  - measureCode: "HealthAndSafetyRiskMajorInjuries"
+    consequenceClassName: "HSMajorInjuryRisk"
+  - measureCode: "HealthAndSafetyRiskMinorInjuries"
+    consequenceClassName: "HSMinorInjuryRisk"
+  - measureCode: "NumberOfMemberOfPublicFatalities"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSPublicFatalities"
+  - measureCode: "NumberOfMemberOfPublicMajorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSPublicMajorInjuries"
+  - measureCode: "NumberOfMemberOfPublicMinorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSPublicMinorInjuries"
+  - measureCode: "NumberOfOperativeFatalities"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSOperativeFatalities"
+  - measureCode: "NumberOfOperativeMajorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSOperativeMajorInjuries"
+  - measureCode: "NumberOfOperativeMinorInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSOperativeMinorInjuries"
+- code: "H&S - Other injury baseline"
+  nameId: "H&S - Other injury"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: true
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfInjuriesOther"
+    sequence: 1
+  - measurePromptCode: "MandComment"
+    sequence: 2
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskOtherTotal"
+  - measureCode: "HealthAndSafetyRiskOtherInjuries"
+    consequenceClassName: "HSOtherInjuryRisk"
+  - measureCode: "NumberOfOtherInjuries"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "HSOtherInjuries"
+- code: "H&S - Other injury residual"
+  nameId: "H&S - Other injury"
+  descriptionId: "A questionnaire to evaluate the impact of health and safety."
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "PercentReduction"
+    sequence: 3
+  - measurePromptCode: "MandComment"
+    sequence: 4
+  formulas:
+  - measureCode: "HealthAndSafetyRisk"
+    consequenceClassName: "HSRiskOtherTotal"
+  - measureCode: "HealthAndSafetyRiskOtherInjuries"
+    consequenceClassName: "HSOtherInjuryRisk"
+  - measureCode: "NumberOfOtherInjuries"
+    consequenceClassName: "IdentityFormulaScaledEndOfSpend"
+    likelihoodClassName: "HSOtherInjuriesOutcome"

@@ -1,0 +1,9 @@
+code: NumberOfEmployeesAffected
+nameId: "Number of Employees Affected"
+descriptionId: "How many employees are affected by these workplace improvements?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100000000
+listItems: []

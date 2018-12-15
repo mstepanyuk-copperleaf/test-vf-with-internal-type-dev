@@ -1,0 +1,44 @@
+code: HoursBasedConditionScore
+nameId: "Hours Based Condition Score"
+descriptionId: ""
+groupCode: "AssetModels"
+mustImpact: true
+investmentApplicability: "NotApplicable"
+assetTypes:
+- assetTypeCode: "GasCompressorCylinder"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "GasCompressorEngine"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "GasLube"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+measures:
+- code: "HoursBasedConditionScore"
+  nameId: "Hours Based Condition Score"
+  valueMeasureCode: "ConditionScore"
+  sequence: 167
+questionnaires:
+- code: "ConditionFromHours-B"
+  nameId: "ConditionFromHours-B"
+  descriptionId: ""
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "HoursBasedConditionScore"
+    consequenceClassName: "ConditionFromHoursBaseline"
+- code: "ConditionFromHours-O"
+  nameId: "ConditionFromHours-O"
+  descriptionId: ""
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "AssetImpact"
+    sequence: 1
+  formulas:
+  - measureCode: "HoursBasedConditionScore"
+    consequenceClassName: "ConditionFromHoursOutcome"

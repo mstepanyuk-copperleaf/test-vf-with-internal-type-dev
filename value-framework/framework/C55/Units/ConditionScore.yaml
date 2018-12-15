@@ -1,0 +1,16 @@
+code: "ConditionScore"
+nameId: "Condition Score"
+descriptionId: "Units produced by the condition score measure."
+unitType: "UnitQuantity"
+literal:
+  editFormat: "0.##"
+  displayFormat: "0.##"
+  symbol: "Condition"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

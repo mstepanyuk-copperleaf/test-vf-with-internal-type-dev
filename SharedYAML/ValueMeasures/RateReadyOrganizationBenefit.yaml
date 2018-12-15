@@ -1,0 +1,16 @@
+code: "RateReadyOrganizationBenefit"
+nameId: "Rate Ready Organization Benefit"
+descriptionId: "Rate Ready Organization is a measure of the impact of a project on\
+  \ the ability of the organization to prepare and defend the rate submission.  The\
+  \ units are calibrated such that 50 value units are assigned for a project that\
+  \ significantly improves this ability."
+color: "#CBD726"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

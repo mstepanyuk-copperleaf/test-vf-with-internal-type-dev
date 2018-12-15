@@ -1,0 +1,13 @@
+code: "NumberOfMemberOfPublicFatalities"
+nameId: "Number of member of public fatalities"
+descriptionId: "Number of member of public fatalities"
+color: "#800197"
+consqUnitCode: "NumberOfFatalities"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

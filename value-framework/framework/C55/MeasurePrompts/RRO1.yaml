@@ -1,0 +1,10 @@
+code: "RRO1"
+descriptionId: "Desc: If the project is completed, what will be the impact on the\
+  \ ability to prepare/defend rate submission?"
+customFieldCode: "RRO1"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Impact on Submission"
+promptTextId: "If the project is completed, what will be the impact on the ability\
+  \ to prepare/defend rate submission?"

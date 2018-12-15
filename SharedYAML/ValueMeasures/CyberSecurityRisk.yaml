@@ -1,0 +1,13 @@
+code: "CyberSecurityRisk"
+nameId: "Cyber Security Risk"
+descriptionId: "Cyber Security Risk"
+color: "#23FA21"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

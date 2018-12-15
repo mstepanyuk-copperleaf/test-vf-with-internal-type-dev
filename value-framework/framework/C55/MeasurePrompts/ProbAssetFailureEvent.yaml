@@ -1,0 +1,8 @@
+code: "ProbAssetFailureEvent"
+descriptionId: "Please enter annual average expected figure."
+customFieldCode: "ProbAssetFailureEvent"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Probability of event"
+promptTextId: "Probability of event from asset failure (%)?"

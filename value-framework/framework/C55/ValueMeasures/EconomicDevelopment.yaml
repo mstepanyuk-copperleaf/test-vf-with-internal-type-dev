@@ -1,0 +1,13 @@
+code: "EconomicDevelopment"
+nameId: "Economic Development"
+descriptionId: "Economic Development"
+color: "#D3E1ED"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

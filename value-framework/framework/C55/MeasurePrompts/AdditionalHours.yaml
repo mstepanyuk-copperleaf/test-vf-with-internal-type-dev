@@ -1,0 +1,8 @@
+code: AdditionalHours
+descriptionId: "Additional Hours"
+customFieldCode: "AdditionalHours"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Additional Hours"
+promptTextId: "Additional Hours"

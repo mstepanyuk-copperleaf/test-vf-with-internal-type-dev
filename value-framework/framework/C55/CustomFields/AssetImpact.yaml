@@ -1,0 +1,7 @@
+code: "AssetImpact"
+nameId: "AssetImpact"
+descriptionId: ""
+type: "CheckBox"
+isMultiline: false
+isCloneable: true
+listItems: []

@@ -1,0 +1,9 @@
+code: GenAssetProbPersonInDangerZone
+nameId: "Gen Asset Prob Person In Danger Zone"
+descriptionId: "Gen Asset Prob Person In Danger Zone"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100
+listItems: []

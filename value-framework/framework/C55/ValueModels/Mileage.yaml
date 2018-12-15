@@ -1,0 +1,167 @@
+code: "Mileage"
+nameId: "Mileage"
+descriptionId: "A model to evaluate the impact of car mileage."
+groupCode: "Environment"
+mustImpact: false
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CarbonSavingsCompanyTonnesC02e"
+  nameId: "Carbon savings – Company (Tonnes C02e)"
+  valueMeasureCode: "CarbonSavingsCompanyTonnesC02e"
+  sequence: 6
+- code: "CarbonSavingsPrivateTonnesC02e"
+  nameId: "Carbon savings – Private (Tonnes C02e)"
+  valueMeasureCode: "CarbonSavingsPrivateTonnesC02e"
+  sequence: 5
+- code: "CostOfTotalMileageCompany"
+  nameId: "Cost of total mileage – Company"
+  valueMeasureCode: "CostOfTotalMileageCompany"
+  sequence: 4
+- code: "CostOfTotalMileagePrivate"
+  nameId: "Cost of TotalMileagePrivate"
+  valueMeasureCode: "CostOfTotalMileagePrivate"
+  sequence: 3
+- code: "MCarbonRisk"
+  nameId: "M - Carbon risk"
+  valueMeasureCode: "CarbonRisk"
+  sequence: 7
+- code: "MCostsAvoided"
+  nameId: "M - Costs Avoided"
+  valueMeasureCode: "CostsAvoided"
+  sequence: 8
+- code: "TotalMileageCompany"
+  nameId: "Total mileage – Company"
+  valueMeasureCode: "TotalMileageCompany"
+  sequence: 2
+- code: "TotalMileagePrivate"
+  nameId: "TotalMileagePrivate"
+  valueMeasureCode: "TotalMileagePrivate"
+  sequence: 1
+questionnaires:
+- code: "Privatemileagebaseline"
+  nameId: "Private mileage"
+  descriptionId: "A questionnaire to evaluate the benefits of claimed mileage through\
+    \ pro-active investment."
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfVehicles"
+    sequence: 1
+  - measurePromptCode: "AverageMileage"
+    sequence: 2
+  - measurePromptCode: "Comment"
+    sequence: 3
+  formulas:
+  - measureCode: "CarbonSavingsCompanyTonnesC02e"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "CarbonSavingsPrivateTonnesC02e"
+    consequenceClassName: "PMCarbonT"
+  - measureCode: "CostOfTotalMileageCompany"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "CostOfTotalMileagePrivate"
+    consequenceClassName: "PMTotalMilesCost"
+  - measureCode: "MCarbonRisk"
+    consequenceClassName: "PMCarbonRisk"
+  - measureCode: "TotalMileageCompany"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "TotalMileagePrivate"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "PMTotalMiles"
+- code: "Companymileagebaseline"
+  nameId: "Company mileage"
+  descriptionId: "A questionnaire to evaluate the benefits of claimed mileage through\
+    \ pro-active investment."
+  isBaseline: true
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfVehicles"
+    sequence: 7
+  - measurePromptCode: "AverageMileage"
+    sequence: 8
+  - measurePromptCode: "Comment"
+    sequence: 9
+  formulas:
+  - measureCode: "CarbonSavingsCompanyTonnesC02e"
+    consequenceClassName: "CMCarbonT"
+  - measureCode: "CarbonSavingsPrivateTonnesC02e"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "CostOfTotalMileageCompany"
+    consequenceClassName: "CMTotalMilesCost"
+  - measureCode: "CostOfTotalMileagePrivate"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "MCarbonRisk"
+    consequenceClassName: "CMCarbonRisk"
+  - measureCode: "TotalMileageCompany"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "CMTotalMiles"
+  - measureCode: "TotalMileagePrivate"
+    consequenceClassName: "ReturnNull"
+- code: "Companymileageresidual"
+  nameId: "Company mileage"
+  descriptionId: "A questionnaire to evaluate the benefits of claimed mileage through\
+    \ pro-active investment."
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfVehicles"
+    sequence: 10
+  - measurePromptCode: "AverageMileage"
+    sequence: 11
+  - measurePromptCode: "Comment"
+    sequence: 12
+  formulas:
+  - measureCode: "CarbonSavingsCompanyTonnesC02e"
+    consequenceClassName: "CMCarbonT"
+  - measureCode: "CarbonSavingsPrivateTonnesC02e"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "CostOfTotalMileageCompany"
+    consequenceClassName: "CMTotalMilesCost"
+  - measureCode: "CostOfTotalMileagePrivate"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "MCarbonRisk"
+    consequenceClassName: "CMCarbonRisk"
+  - measureCode: "MCostsAvoided"
+    consequenceClassName: "CMCostsAvoided"
+    likelihoodClassName: "IdentityFormulaScaledEndOfSpendLikelihood"
+  - measureCode: "TotalMileageCompany"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "CMTotalMiles"
+  - measureCode: "TotalMileagePrivate"
+    consequenceClassName: "ReturnNull"
+- code: "Privatemileageresidual"
+  nameId: "Private mileage"
+  descriptionId: "A questionnaire to evaluate the benefits of claimed mileage through\
+    \ pro-active investment."
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoOfVehicles"
+    sequence: 4
+  - measurePromptCode: "AverageMileage"
+    sequence: 5
+  - measurePromptCode: "Comment"
+    sequence: 6
+  formulas:
+  - measureCode: "CarbonSavingsCompanyTonnesC02e"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "CarbonSavingsPrivateTonnesC02e"
+    consequenceClassName: "PMCarbonT"
+  - measureCode: "CostOfTotalMileageCompany"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "CostOfTotalMileagePrivate"
+    consequenceClassName: "PMTotalMilesCost"
+  - measureCode: "MCarbonRisk"
+    consequenceClassName: "PMCarbonRisk"
+  - measureCode: "MCostsAvoided"
+    consequenceClassName: "PMCostsAvoided"
+    likelihoodClassName: "IdentityFormulaScaledEndOfSpendLikelihood"
+  - measureCode: "TotalMileageCompany"
+    consequenceClassName: "ReturnNull"
+  - measureCode: "TotalMileagePrivate"
+    consequenceClassName: "IdentityFormula"
+    likelihoodClassName: "PMTotalMiles"

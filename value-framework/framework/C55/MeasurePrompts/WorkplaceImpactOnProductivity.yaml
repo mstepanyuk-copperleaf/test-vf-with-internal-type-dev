@@ -1,0 +1,10 @@
+code: "WorkplaceImpactOnProductivity"
+descriptionId: "What impact are the workplace improvements expected to have on the\
+  \ productivity of employees?"
+customFieldCode: "WorkplaceImpactOnProductivity"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Workplace Impact on"
+promptTextId: "What impact are the workplace improvements expected to have on the\
+  \ productivity of employees?"

@@ -1,0 +1,28 @@
+code: HowWellDefinedWillProjectScopeBe
+nameId: "How Well Defined will Project Scope be"
+descriptionId: "How Well Defined will Project Scope be"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) Scope not yet defined"
+  nameId: "A) Scope not yet defined"
+  value: 0.0276
+  isObsolete: false
+- code: "B) Expecting that scope will be defined as part of the project"
+  nameId: "B) Expecting that scope will be defined as part of the project"
+  value: 0.02345
+  isObsolete: false
+- code: "C) Outcomes known but path to achieve them is fuzzy"
+  nameId: "C) Outcomes known but path to achieve them is fuzzy"
+  value: 0.0193
+  isObsolete: false
+- code: "D) Fully defined scope not yet reviewed"
+  nameId: "D) Fully defined scope not yet reviewed"
+  value: 0.01515
+  isObsolete: false
+- code: "E) Fully defined scope reviewed with key business and stakeholders"
+  nameId: "E) Fully defined scope reviewed with key business and stakeholders"
+  value: 0.011
+  isObsolete: false

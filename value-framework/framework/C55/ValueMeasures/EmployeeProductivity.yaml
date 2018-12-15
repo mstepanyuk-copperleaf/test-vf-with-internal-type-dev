@@ -1,0 +1,13 @@
+code: "EmployeeProductivity"
+nameId: "Employee Productivity"
+descriptionId: "Employee Productivity"
+color: "#2B066A"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

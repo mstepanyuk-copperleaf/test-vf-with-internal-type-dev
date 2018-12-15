@@ -1,0 +1,9 @@
+code: BenefitProbabilityNTV
+descriptionId: "Probability of benefit being achieved"
+customFieldCode: "BenefitProbability"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of this benefit being achieved? (%)"
+defaultValue: "100"

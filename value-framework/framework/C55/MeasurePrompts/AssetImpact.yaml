@@ -1,0 +1,9 @@
+code: "AssetImpact"
+descriptionId: "Select \"Yes\" if this alternative improves the condition of the Asset"
+customFieldCode: "AssetImpact"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Is this asset Impact"
+promptTextId: "Is this asset Impacted by this project alternative?"
+defaultValue: "1"

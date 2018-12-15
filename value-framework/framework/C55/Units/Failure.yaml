@@ -1,0 +1,16 @@
+code: "Failure"
+nameId: "Failure x10-6"
+descriptionId: "Failure"
+unitType: "UnitQuantity"
+literal:
+  editFormat: "#,###,##0.######"
+  displayFormat: "#,###,##0.######;(#,###,##0.######);0"
+  symbol: "Failure x10-6"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

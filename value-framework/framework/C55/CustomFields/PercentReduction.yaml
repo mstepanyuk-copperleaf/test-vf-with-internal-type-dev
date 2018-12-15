@@ -1,0 +1,9 @@
+code: "PercentReduction"
+nameId: "Percentage reduction (%)"
+descriptionId: "Percentage improvement (%)"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+minimumNumber: 0
+maximumNumber: 100
+listItems: []

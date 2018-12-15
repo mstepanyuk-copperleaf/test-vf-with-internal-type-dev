@@ -1,0 +1,13 @@
+code: "GovernmentCommunityRelationsRisk"
+nameId: "Government & Community Relations Risk"
+descriptionId: "Government and Community Relations Risk"
+color: "#9F029F"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

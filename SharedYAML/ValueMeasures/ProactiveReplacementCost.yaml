@@ -1,0 +1,13 @@
+code: "ProactiveReplacementCost"
+nameId: "Proactive Replacement Cost"
+descriptionId: ""
+color: "#004600"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "FinancialCost"

@@ -1,0 +1,13 @@
+code: "CapitalCost"
+nameId: "Capital Cost (CAPEX)"
+descriptionId: "Capital Cost (CAPEX)"
+color: "#000800"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

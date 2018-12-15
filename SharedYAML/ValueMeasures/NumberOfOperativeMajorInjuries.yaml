@@ -1,0 +1,13 @@
+code: "NumberOfOperativeMajorInjuries"
+nameId: "Number of operative major injuries"
+descriptionId: "Number of operative major injuries"
+color: "#800193"
+consqUnitCode: "NumberOfMajorInjuries"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

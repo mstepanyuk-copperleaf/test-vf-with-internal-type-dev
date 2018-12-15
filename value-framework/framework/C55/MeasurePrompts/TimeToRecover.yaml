@@ -1,0 +1,10 @@
+code: "TimeToRecover"
+descriptionId: ""
+customFieldCode: "TimeToRecover"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What would be the re"
+promptTextId: "What would be the recovery time in hours (enter 8760 for a problem\
+  \ that will take more than a year to resolve)?"
+defaultValue: "8760"

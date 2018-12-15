@@ -1,0 +1,8 @@
+code: "NoOfComplaints"
+descriptionId: "Please enter the annual average number of customer complaints."
+customFieldCode: "NoOfComplaints"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Expected number of c"
+promptTextId: "Expected number of customer complaints?"

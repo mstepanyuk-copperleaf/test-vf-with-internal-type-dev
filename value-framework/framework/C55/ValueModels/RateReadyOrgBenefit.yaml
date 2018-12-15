@@ -1,0 +1,30 @@
+code: "RateReadyOrgBenefit"
+nameId: "Rate Ready Organization Benefit"
+descriptionId: "Rate Ready Organization is a measure of the impact of a project on\
+  \ the ability of the organization to prepare and defend the rate submission.  The\
+  \ units are calibrated such that 50 value units are assigned for a project that\
+  \ significantly improves this ability."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "RateReadyOrgBenefit"
+  nameId: "Rate Ready Organization Benefit"
+  valueMeasureCode: "RateReadyOrganizationBenefit"
+  sequence: 1
+questionnaires:
+- code: "RateReadyOrgBenefit-Rate Ready Organization Benefit-O"
+  nameId: "Rate Ready Organization Benefit"
+  descriptionId: "Rate Ready Organization Benefit"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "RRO1"
+    sequence: 1
+  - measurePromptCode: "RROText"
+    sequence: 2
+  formulas:
+  - measureCode: "RateReadyOrgBenefit"
+    consequenceClassName: "RateReadyOrgBenefitConsequenceMonthly"

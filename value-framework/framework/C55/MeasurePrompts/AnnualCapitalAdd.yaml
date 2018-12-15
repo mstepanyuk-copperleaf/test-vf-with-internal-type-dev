@@ -1,0 +1,8 @@
+code: "AnnualCapitalAdd"
+descriptionId: ""
+customFieldCode: "AnnualCapitalAdd"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the annual c"
+promptTextId: "What is the annual capital cost increase anticipated from this project?"

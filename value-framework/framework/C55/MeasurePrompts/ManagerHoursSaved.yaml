@@ -1,0 +1,8 @@
+code: "ManagerHoursSaved"
+descriptionId: ""
+customFieldCode: "ManagerHoursSaved"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Per M&E, how many ho"
+promptTextId: "Per M&E, how many hours will be saved (per year)?"

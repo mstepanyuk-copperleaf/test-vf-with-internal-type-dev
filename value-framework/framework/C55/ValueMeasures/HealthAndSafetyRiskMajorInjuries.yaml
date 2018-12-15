@@ -1,0 +1,13 @@
+code: "HealthAndSafetyRiskMajorInjuries"
+nameId: "Health and safety risk (Major injuries)"
+descriptionId: "Health and safety risk (Major injuries)"
+color: "#800199"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

@@ -1,0 +1,28 @@
+code: "VendorTechnicalExperience"
+nameId: "Vendor Technical Experience"
+descriptionId: "Vendor Technical Experience"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) No vendor required"
+  nameId: "A) No vendor required"
+  value: 0
+  isObsolete: false
+- code: "B) No personnel assigned"
+  nameId: "B) No personnel assigned"
+  value: 0.0415
+  isObsolete: false
+- code: "C) Not familiar"
+  nameId: "C) Not familiar"
+  value: 0.0331666667
+  isObsolete: false
+- code: "D) Familiar with some aspects"
+  nameId: "D) Familiar with some aspects"
+  value: 0.0248333333
+  isObsolete: false
+- code: "E) Expertise and track record of success"
+  nameId: "E) Expertise and track record of success"
+  value: 0.0165
+  isObsolete: false

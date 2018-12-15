@@ -1,0 +1,56 @@
+code: FinancialRisk
+nameId: "Financial Risk"
+descriptionId: "Financial Risk"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "FinancialRisk"
+  nameId: "Financial Risk"
+  valueMeasureCode: "FinancialRisk"
+  sequence: 22
+questionnaires:
+- code: "Automated Risk Mitigation-Financial Risk-O"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Financial Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "FinancialRisk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "Manual Risk-Financial Risk-B"
+  nameId: "Manual Risk"
+  descriptionId: "Financial Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "DollarConsequenceAmount"
+    sequence: 34
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 106
+  - measurePromptCode: "Rationale"
+    sequence: 172
+  formulas:
+  - measureCode: "FinancialRisk"
+    consequenceClassName: "FinancialRiskConsequence"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "Manual Risk-Financial Risk-O"
+  nameId: "Manual Risk"
+  descriptionId: "Financial Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "DollarConsequenceAmount"
+    sequence: 50
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 122
+  formulas:
+  - measureCode: "FinancialRisk"
+    consequenceClassName: "FinancialRiskConsequence"
+    likelihoodClassName: "RiskLikelihoodManual"

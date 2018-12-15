@@ -1,0 +1,9 @@
+code: "AssetImpactedByAlternative"
+descriptionId: "Is this asset Impacted by this alternative?"
+customFieldCode: "AssetImpactedByAlternative"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Is this asset Impact"
+promptTextId: "Is this asset Impacted by this alternative?"
+defaultValue: "1"

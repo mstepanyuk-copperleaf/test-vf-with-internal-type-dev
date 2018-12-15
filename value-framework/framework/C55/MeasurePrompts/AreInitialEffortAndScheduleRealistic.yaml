@@ -1,0 +1,8 @@
+code: AreInitialEffortAndScheduleRealistic
+descriptionId: ""
+customFieldCode: "AreInitialEffortAndScheduleRealistic"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Are Initial Effort a"
+promptTextId: "Are initial effort and schedule estimates realistic?"

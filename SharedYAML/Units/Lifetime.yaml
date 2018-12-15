@@ -1,0 +1,16 @@
+code: "Lifetime"
+nameId: "Lifetime"
+descriptionId: "Lifetime"
+unitType: "Time"
+literal:
+  editFormat: "0"
+  displayFormat: "#.##"
+  symbol: "Lifetime"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

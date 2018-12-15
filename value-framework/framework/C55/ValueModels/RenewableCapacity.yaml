@@ -1,0 +1,36 @@
+code: RenewableCapacity
+nameId: "Renewable Capacity"
+descriptionId: "Renewable Capacity"
+groupCode: "EnvironmentalStewardship"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "RenewableCapacity"
+  nameId: "Renewable Capacity"
+  valueMeasureCode: "RenewableCapacity"
+  sequence: 1
+- code: "RenewableCapacityKPI"
+  nameId: "Renewable Capacity - KPI"
+  valueMeasureCode: "RenewableCapacityKPI"
+  sequence: 2
+questionnaires:
+- code: "RenewableCapacity-O"
+  nameId: "Renewable Capacity"
+  descriptionId: "Renewable Capacity"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "RenewableCapacityAdded"
+    sequence: 1
+  - measurePromptCode: "BenefitProbability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "RenewableCapacity"
+    consequenceClassName: "RenewableCapacityConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "RenewableCapacityKPI"
+    consequenceClassName: "RenewableCapacityKPIConsequence"

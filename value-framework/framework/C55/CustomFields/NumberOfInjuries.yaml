@@ -1,0 +1,9 @@
+code: NumberOfInjuries
+nameId: "Number of injuries (per year)"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+minimumNumber: 0
+maximumNumber: 1000
+listItems: []

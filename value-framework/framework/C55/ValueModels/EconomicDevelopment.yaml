@@ -1,0 +1,31 @@
+code: "EconomicDevelopment"
+nameId: "Economic Development"
+descriptionId: "Investments that bring economic development to the organization, including\
+  \ cost savings and/or revenue increases."
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "EconomicDevelopment"
+  nameId: "Economic Development"
+  valueMeasureCode: "EconomicDevelopment"
+  sequence: 948
+questionnaires:
+- code: "Economic Development-O"
+  nameId: "Economic Development"
+  descriptionId: "Economic Development"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "AnnualBenefit"
+    sequence: 1
+  - measurePromptCode: "PopBenefitProbability"
+    sequence: 2
+  - measurePromptCode: "JustificationComment"
+    sequence: 3
+  formulas:
+  - measureCode: "EconomicDevelopment"
+    consequenceClassName: "EconDevFormula"
+    likelihoodClassName: "POPBenefitLikelihood"

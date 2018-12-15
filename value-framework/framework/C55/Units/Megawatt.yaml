@@ -1,0 +1,16 @@
+code: "Megawatt"
+nameId: "Megawatt"
+descriptionId: "1,000,000 watts"
+unitType: "Power"
+literal:
+  editFormat: "0"
+  displayFormat: "#,##0;(#,##0);0"
+  symbol: "MW"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

@@ -1,0 +1,9 @@
+code: "PopBenefitProbability"
+descriptionId: "Use your best engineering judgement\nDetail your thought process in\
+  \ the rationale field\nEnter a number between 0-100"
+customFieldCode: "PopBenefitProbability"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of this benefit being achieved? (%)"

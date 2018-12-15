@@ -1,0 +1,13 @@
+code: "CostSavingsOM"
+nameId: "Cost Savings - O/M"
+descriptionId: "Cost Savings - O/M"
+color: "#23FA49"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

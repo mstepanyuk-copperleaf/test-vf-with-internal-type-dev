@@ -1,0 +1,9 @@
+code: CarbonConversionFactorPerMile
+nameId: "Carbon conversion factor (per mile)"
+descriptionId: "Carbon conversion factor - Mile to KgCO2e"
+type: "Number"
+isCloneable: true
+numberDecimals: 5
+minimumNumber: 0
+maximumNumber: 100
+listItems: []

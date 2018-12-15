@@ -1,0 +1,10 @@
+code: "PowerSavings"
+nameId: "Power Savings"
+descriptionId: "Power Savings"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 1000000
+listItems: []

@@ -1,0 +1,16 @@
+code: "NumberOfMinorInjuries"
+nameId: "Number of minor injuries"
+descriptionId: "Number of minor injuries"
+unitType: "UnitQuantity"
+literal:
+  editFormat: "0.##"
+  displayFormat: "#,##0.00;(#,##0.00);0.00"
+  symbol: "# minor injuries"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

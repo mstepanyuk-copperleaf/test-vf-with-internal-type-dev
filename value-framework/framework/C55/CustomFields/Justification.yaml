@@ -1,0 +1,8 @@
+code: "Justification"
+nameId: "Justification"
+descriptionId: "Provide any rationale or assumptions for the numbers provided."
+type: "BigText"
+isMultiline: true
+isCloneable: true
+maximumLength: 10000
+listItems: []

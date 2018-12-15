@@ -1,0 +1,39 @@
+code: CustomerSatisfactionImprovement
+nameId: "Customer Satisfaction Improvement"
+descriptionId: "Customer Satisfaction Improvement"
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "Noimpact"
+  nameId: "No impact"
+  value: 0
+  isObsolete: false
+- code: "Nomeasurableimpact"
+  nameId: "No measurable impact"
+  value: 0.1
+  isObsolete: false
+- code: "Positive impact of 1%"
+  nameId: "Positive impact of 1%"
+  value: 1
+  isObsolete: false
+- code: "Positive impact of 2%"
+  nameId: "Positive impact of 2%"
+  value: 2
+  isObsolete: false
+- code: "Positive impact of 3%"
+  nameId: "Positive impact of 3%"
+  value: 3
+  isObsolete: false
+- code: "Positive impact of 4%"
+  nameId: "Positive impact of 4%"
+  value: 4
+  isObsolete: false
+- code: "Positive impact of 5% or more percentage points"
+  nameId: "Positive impact of 5% or more percentage points"
+  value: 5
+  isObsolete: false
+- code: "Positive impact of less than 1%"
+  nameId: "Positive impact of less than 1%"
+  value: 0.5
+  isObsolete: false

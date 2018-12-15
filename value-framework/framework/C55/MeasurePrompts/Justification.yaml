@@ -1,0 +1,8 @@
+code: "Justification"
+descriptionId: ""
+customFieldCode: "Justification"
+isTimeVarying: false
+isRequired: true
+isComment: true
+shortPromptId: "Provide any rational"
+promptTextId: "Provide any rationale or assumptions for the numbers provided."

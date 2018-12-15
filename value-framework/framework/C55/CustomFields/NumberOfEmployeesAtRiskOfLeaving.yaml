@@ -1,0 +1,10 @@
+code: NumberOfEmployeesAtRiskOfLeaving
+nameId: "Number of Employees At Risk Of Leaving"
+descriptionId: "How many employees are at significant risk of leaving the company\
+  \ (or their current position) if these improvements are not made?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100000000
+listItems: []

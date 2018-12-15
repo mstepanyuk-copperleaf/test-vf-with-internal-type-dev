@@ -1,0 +1,13 @@
+code: "ComplaintRisk"
+nameId: "Complaint risk"
+descriptionId: "Complaint risk"
+color: "#800207"
+consqUnitCode: "PoundSterling"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

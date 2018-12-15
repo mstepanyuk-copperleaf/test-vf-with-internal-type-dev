@@ -1,0 +1,10 @@
+code: "PenaltyAmount"
+nameId: "Penalty Amount"
+descriptionId: "Penalty Amount"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+minimumNumber: 0
+maximumNumber: 100000000
+listItems: []

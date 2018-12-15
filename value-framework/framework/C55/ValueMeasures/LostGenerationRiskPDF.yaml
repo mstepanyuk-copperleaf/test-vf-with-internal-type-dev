@@ -1,0 +1,13 @@
+code: "LostGenerationRiskPDF"
+nameId: "Lost Generation Risk (PDF)"
+descriptionId: "Lost Generation Risk (PDF)"
+color: "#770000"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

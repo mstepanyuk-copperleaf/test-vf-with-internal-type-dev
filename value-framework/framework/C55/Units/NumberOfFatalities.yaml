@@ -1,0 +1,16 @@
+code: "NumberOfFatalities"
+nameId: "Number of fatalities"
+descriptionId: "Number of fatalities"
+unitType: "UnitQuantity"
+literal:
+  editFormat: "0.##"
+  displayFormat: "#,##0.00;(#,##0.00);0.00"
+  symbol: "# fatalities"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

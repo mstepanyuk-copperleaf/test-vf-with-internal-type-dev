@@ -1,0 +1,12 @@
+code: "OMAAnnualCostMedium"
+nameId: "O&M Annual Cost for assets with Medium ongoing maintenance costs"
+descriptionId: "O&M Annual Cost for assets with Medium ongoing maintanance costs (i.e.\
+  \ medium condition scores)"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: true
+minimumNumber: 0
+maximumNumber: 1000000
+listItems: []

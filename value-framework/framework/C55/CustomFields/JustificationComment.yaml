@@ -1,0 +1,8 @@
+code: "JustificationComment"
+nameId: "Justification Comment"
+descriptionId: "Provide background information justifying selection of answers."
+type: "BigText"
+isMultiline: true
+isCloneable: true
+maximumLength: 10000
+listItems: []

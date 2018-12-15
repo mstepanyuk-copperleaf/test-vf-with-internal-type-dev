@@ -1,0 +1,9 @@
+code: AdditionalHours
+nameId: "Additional Hours"
+descriptionId: "Additional Hours"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 1000000000
+listItems: []

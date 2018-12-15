@@ -1,0 +1,9 @@
+code: CostsSaved
+nameId: "Costs Saved"
+descriptionId: "Costs Saved"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 10000000000
+listItems: []

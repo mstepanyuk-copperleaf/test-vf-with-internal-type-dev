@@ -1,0 +1,8 @@
+code: "FineLikelihood"
+nameId: "Fine Likelihood"
+descriptionId: "Fine Likelihood"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Likelihood"
+listItems: []

@@ -1,0 +1,13 @@
+code: "CustomerCostSavings"
+nameId: "Customer Cost Savings"
+descriptionId: "Customer Cost Savings"
+color: "#AC4567"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

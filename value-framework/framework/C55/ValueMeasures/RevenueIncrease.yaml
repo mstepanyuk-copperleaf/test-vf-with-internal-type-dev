@@ -1,0 +1,13 @@
+code: "RevenueIncrease"
+nameId: "Revenue Increase"
+descriptionId: "Revenue Increase"
+color: "#1B066A"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

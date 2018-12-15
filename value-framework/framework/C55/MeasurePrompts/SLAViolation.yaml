@@ -1,0 +1,9 @@
+code: "SLAViolation"
+descriptionId: "SLA Violation"
+customFieldCode: "SLAViolation"
+isTimeVarying: true
+isRequired: false
+isComment: true
+shortPromptId: "SLA Violation"
+promptTextId: "If this investment is not completed, will this result in violation\
+  \ of a service level agreement?"

@@ -1,0 +1,10 @@
+code: RenewableCapacityAdded
+descriptionId: "New renewable capacity added (MW), or enter a negative number if renewable\
+  \ capacity is being removed."
+customFieldCode: "RenewableCapacityAdded"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How much new renewab"
+promptTextId: "How much new renewable capacity (MW) will be enabled or added to the\
+  \ grid by this investment?"

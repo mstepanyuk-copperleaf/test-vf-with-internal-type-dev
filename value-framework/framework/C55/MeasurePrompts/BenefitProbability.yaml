@@ -1,0 +1,10 @@
+code: BenefitProbability
+descriptionId: "Use your best judgment\nDetail your thought process in\
+  \ the rationale field\nEnter a number between 0-100"
+customFieldCode: "BenefitProbability"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the probabil"
+promptTextId: "What is the probability of this benefit being achieved? (%)"
+defaultValue: "100"

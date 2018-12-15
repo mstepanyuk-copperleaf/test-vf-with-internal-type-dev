@@ -1,0 +1,8 @@
+code: "AverageMileage"
+descriptionId: ""
+customFieldCode: "AverageMileage"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Annual average milea"
+promptTextId: "Annual average mileage per vehicle?"

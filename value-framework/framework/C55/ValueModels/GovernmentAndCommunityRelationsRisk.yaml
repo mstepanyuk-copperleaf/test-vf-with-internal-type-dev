@@ -1,0 +1,56 @@
+code: GovernmentAndCommunityRelationsRisk
+nameId: "Government & Community Relations Risk"
+descriptionId: "Government & Community Relations Risk"
+groupCode: "Safety & Security"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "GovernmentAndCommunityRelationsRisk"
+  nameId: "Government & Community Relations Risk"
+  valueMeasureCode: "GovernmentCommunityRelationsRisk"
+  sequence: 44
+questionnaires:
+- code: "Automated Risk Mitigation-Government & Community Relations Risk-O"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Government & Community Relations Risk"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "GovernmentAndCommunityRelationsRisk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "Manual Risk-Government & Community Relations Risk-B"
+  nameId: "Manual Risk"
+  descriptionId: "Government & Community Relations Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 37
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 109
+  - measurePromptCode: "Rationale"
+    sequence: 175
+  formulas:
+  - measureCode: "GovernmentAndCommunityRelationsRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "Manual Risk-Government & Community Relations Risk-O"
+  nameId: "Manual Risk"
+  descriptionId: "Government & Community Relations Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 53
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 125
+  formulas:
+  - measureCode: "GovernmentAndCommunityRelationsRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"

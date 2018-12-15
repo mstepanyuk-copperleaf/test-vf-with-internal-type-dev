@@ -1,0 +1,34 @@
+code: CustomerServiceBenefit
+nameId: "Customer Service Benefit"
+descriptionId: "Customer Service Benefit"
+groupCode: "Stakeholders & Community"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CustomerServiceBenefit"
+  nameId: "Customer Service Benefit"
+  valueMeasureCode: "CustomerServiceBenefit"
+  sequence: 12
+questionnaires:
+- code: "Customer Service Benefit-O"
+  nameId: "Customer Service Benefit"
+  descriptionId: "Customer Service Benefit"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "SelfServiceResolutions"
+    sequence: 17
+  - measurePromptCode: "LowEffortResolutions"
+    sequence: 89
+  - measurePromptCode: "AgentTimeSaved"
+    sequence: 157
+  - measurePromptCode: "BenefitProbability"
+    sequence: 197
+  - measurePromptCode: "Rationale"
+    sequence: 209
+  formulas:
+  - measureCode: "CustomerServiceBenefit"
+    consequenceClassName: "CustomerServiceConsequence"
+    likelihoodClassName: "BenefitLikelihood"

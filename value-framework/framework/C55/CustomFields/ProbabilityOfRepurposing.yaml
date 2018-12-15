@@ -1,0 +1,10 @@
+code: ProbabilityOfRepurposing
+nameId: "ProbabilityofRepurposing"
+descriptionId: "Assumption - Probability of repurposing - used in Employee Productivity\
+  \ Benefit"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 1000000
+listItems: []

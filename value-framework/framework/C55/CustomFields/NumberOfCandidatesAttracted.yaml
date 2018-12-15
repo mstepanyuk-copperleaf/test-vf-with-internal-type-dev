@@ -1,0 +1,10 @@
+code: NumberOfCandidatesAttracted
+nameId: "Number of Candidates Attracted"
+descriptionId: "How many potential candidates will be attracted to the company if\
+  \ these improvements are made?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100000000
+listItems: []

@@ -1,0 +1,13 @@
+code: "RenewableCapacity"
+nameId: "Renewable Capacity"
+descriptionId: "Renewable Capacity"
+color: "#23FA60"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

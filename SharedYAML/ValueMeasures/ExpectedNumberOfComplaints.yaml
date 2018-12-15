@@ -1,0 +1,13 @@
+code: "ExpectedNumberOfComplaints"
+nameId: "Expected Number of Complaints"
+descriptionId: "Expected Number of Complaints"
+color: "#800172"
+consqUnitCode: "Failure"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

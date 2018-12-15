@@ -1,0 +1,9 @@
+code: "ConditionScore"
+descriptionId: "Asset Condition Score (use this to override the calculated condition\
+  \ value, if asset condition is known)"
+customFieldCode: "ConditionScore"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "Condition Score"
+promptTextId: "Asset Condition Score"

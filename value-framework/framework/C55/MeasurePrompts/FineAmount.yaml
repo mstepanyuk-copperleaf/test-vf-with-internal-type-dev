@@ -1,0 +1,8 @@
+code: "FineAmount"
+descriptionId: "Fine Amount"
+customFieldCode: "FineAmount"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Fine Amount"
+promptTextId: "What is the fine that TELUS avoids by making this investment?"

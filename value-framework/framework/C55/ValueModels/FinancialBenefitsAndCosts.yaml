@@ -1,0 +1,69 @@
+code: FinancialBenefitsAndCosts
+nameId: "Financial Benefits & Costs"
+descriptionId: "Investments that bring measurable financial benefits or costs to the\
+  \ organization in the form of annual capital and O&M cost savings/increases, cost\
+  \ avoidance or revenue increase (i.e. would result in a budget decrease/increase)"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CostAvoidanceCapital"
+  nameId: "Cost Avoidance - Capital"
+  valueMeasureCode: "CostAvoidanceCapital"
+  sequence: 9
+- code: "CostAvoidanceOM"
+  nameId: "Cost Avoidance - O/M"
+  valueMeasureCode: "CostAvoidanceOM"
+  sequence: 10
+- code: "CostSavingsCapital"
+  nameId: "Cost Savings - Capital"
+  valueMeasureCode: "CostSavingsCapital"
+  sequence: 11
+- code: "CostSavingsOM"
+  nameId: "Cost Savings - O/M"
+  valueMeasureCode: "CostSavingsOM"
+  sequence: 12
+- code: "RevenueIncrease"
+  nameId: "Revenue Increase"
+  valueMeasureCode: "RevenueIncrease"
+  sequence: 13
+questionnaires:
+- code: "Financial Benefits & Costs-O"
+  nameId: "Financial Benefits & Costs"
+  descriptionId: "Financial Benefits & Costs"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "FinancialBenefitType"
+    sequence: 101
+  - measurePromptCode: "AnnualCapital"
+    sequence: 102
+  - measurePromptCode: "AnnualOM"
+    sequence: 103
+  - measurePromptCode: "AnnualCapitalAdd"
+    sequence: 104
+  - measurePromptCode: "AnnualOMAdd"
+    sequence: 105
+  - measurePromptCode: "CostCentre"
+    sequence: 106
+  - measurePromptCode: "BenefitProbability"
+    sequence: 107
+  - measurePromptCode: "Rationale"
+    sequence: 108
+  formulas:
+  - measureCode: "CostAvoidanceCapital"
+    internalClassName: "DummyInternal"
+  - measureCode: "CostAvoidanceOM"
+    consequenceClassName: "OMCostAvoidanceConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "CostSavingsCapital"
+    consequenceClassName: "CapitalCostSavingsConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "CostSavingsOM"
+    consequenceClassName: "OMCostSavingsConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "RevenueIncrease"
+    consequenceClassName: "RevenueIncreaseConsequence"
+    likelihoodClassName: "BenefitLikelihood"

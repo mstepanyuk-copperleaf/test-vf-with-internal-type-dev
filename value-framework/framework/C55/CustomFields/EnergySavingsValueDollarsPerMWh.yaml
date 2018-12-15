@@ -1,0 +1,10 @@
+code: "EnergySavingsValueDollarsPerMWh"
+nameId: "Energy Savings Value ($/MWh)"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+maximumNumber: 1000
+listItems: []

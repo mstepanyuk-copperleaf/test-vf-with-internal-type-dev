@@ -1,0 +1,9 @@
+code: "FineLikelihood"
+descriptionId: "Fine Likelihood"
+customFieldCode: "FineLikelihood"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Fine Likelihood"
+promptTextId: "What is the likelihood of the fine being imposed if this investment\
+  \ does not occur?"

@@ -1,0 +1,8 @@
+code: "OfficeHoursSaved"
+descriptionId: ""
+customFieldCode: "OfficeHoursSaved"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Per office employee,"
+promptTextId: "Per office employee, how many hours will be saved (per year)?"

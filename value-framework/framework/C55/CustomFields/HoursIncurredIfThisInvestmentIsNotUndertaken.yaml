@@ -1,0 +1,9 @@
+code: HoursIncurredIfThisInvestmentIsNotUndertaken
+nameId: "Hours incurred if this investment is not undertaken"
+descriptionId: "Hours incurred if this investment is not undertaken"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 1000000000
+listItems: []

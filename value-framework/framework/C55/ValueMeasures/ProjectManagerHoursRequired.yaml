@@ -1,0 +1,13 @@
+code: "ProjectManagerHoursRequired"
+nameId: "Project Manager Hours Required"
+descriptionId: "Project Manager Hours Required"
+color: "#23FA27"
+consqUnitCode: "Hour"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Resource"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

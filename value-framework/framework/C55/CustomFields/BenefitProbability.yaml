@@ -1,0 +1,9 @@
+code: BenefitProbability
+nameId: "Benefit Probability"
+descriptionId: "What is the probability of this benefit being achieved?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 100
+listItems: []

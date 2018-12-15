@@ -1,0 +1,10 @@
+code: "CO2perMWh"
+nameId: "CO2 savings per MWh saved"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 6
+minimumNumber: 0
+maximumNumber: 100
+listItems: []

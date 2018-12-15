@@ -1,0 +1,10 @@
+code: "AssetEffectiveAge"
+descriptionId: "Please enter the asset in-service date if the asset already exists.\
+  \ If this field is left empty, the model assumes the asset in-service year is the\
+  \ same as the alternative start date year."
+customFieldCode: "AssetEffectiveAge"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "What is the asset in"
+promptTextId: "What is the asset in-service date?"

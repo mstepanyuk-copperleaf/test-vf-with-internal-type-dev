@@ -1,0 +1,9 @@
+code: "NoFieldEmployees"
+nameId: "NoFieldEmployees"
+descriptionId: "How many field employees are impacted , following this investment?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 1000000
+listItems: []

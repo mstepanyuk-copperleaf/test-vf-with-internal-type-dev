@@ -1,0 +1,9 @@
+code: "AnnualCapitalAdd"
+nameId: "AnnualCapitalAdd"
+descriptionId: "What is the annual capital cost increase anticipated from this project?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 100000000
+listItems: []

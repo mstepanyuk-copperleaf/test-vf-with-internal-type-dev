@@ -1,0 +1,36 @@
+code: EmissionLevels
+nameId: "Emission Levels"
+descriptionId: "Emission Levels"
+groupCode: "Stewardship"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "EmissionLevels"
+  nameId: "Emission Levels"
+  valueMeasureCode: "EmissionLevels"
+  sequence: 1
+- code: "EmissionLevelsKPI"
+  nameId: "Emission Levels - KPI"
+  valueMeasureCode: "EmissionLevelsKPI"
+  sequence: 2
+questionnaires:
+- code: "EmissionLevels-O"
+  nameId: "Emission Levels"
+  descriptionId: "Emission Levels"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "CO2ReductionTV"
+    sequence: 1
+  - measurePromptCode: "BenefitProbability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "EmissionLevels"
+    consequenceClassName: "EmissionLevelsConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "EmissionLevelsKPI"
+    consequenceClassName: "EmissionLevelsKPIConsequence"

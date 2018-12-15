@@ -1,0 +1,8 @@
+code: "AlternativeMilestoneISDCode"
+nameId: "Alternative Milestone ISD Code"
+descriptionId: ""
+type: "Text"
+isMultiline: false
+isCloneable: true
+maximumLength: 500
+listItems: []

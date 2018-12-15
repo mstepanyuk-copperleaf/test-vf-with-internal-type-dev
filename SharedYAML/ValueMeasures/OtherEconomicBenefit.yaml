@@ -1,0 +1,13 @@
+code: "OtherEconomicBenefit"
+nameId: "Other Economic Benefit"
+descriptionId: "Other Economic Benefit"
+color: "#751E56"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

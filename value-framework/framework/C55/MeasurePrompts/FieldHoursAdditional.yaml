@@ -1,0 +1,9 @@
+code: "FieldHoursAdditional"
+descriptionId: ""
+customFieldCode: "FieldHoursAdditional"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Per field employee,"
+promptTextId: "Per field employee, how many additional hours will be required (per\
+  \ year)?"

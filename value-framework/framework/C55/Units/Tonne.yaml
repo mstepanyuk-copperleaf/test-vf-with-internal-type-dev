@@ -1,0 +1,16 @@
+code: "Tonne"
+nameId: "Tonne"
+descriptionId: "Metric Ton"
+unitType: "Weight"
+literal:
+  editFormat: "0"
+  displayFormat: "#,##0;(#,##0);0"
+  symbol: "t"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

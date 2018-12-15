@@ -1,0 +1,14 @@
+code: "ReactiveReplacementCost"
+nameId: "Reactive Replacement Cost"
+descriptionId: "Reactive Replacement Cost"
+color: "#DD0000"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+richDescription: ""
+financialMetricsUsage: "FinancialCost"

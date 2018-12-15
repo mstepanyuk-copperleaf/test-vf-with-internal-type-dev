@@ -1,0 +1,8 @@
+code: "FinancialBenefitType"
+descriptionId: ""
+customFieldCode: "FinancialBenefitType"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "What is the Financia"
+promptTextId: "What is the Financial Benefit/Cost type?"

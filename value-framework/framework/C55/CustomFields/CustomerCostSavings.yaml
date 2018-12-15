@@ -1,0 +1,10 @@
+code: CustomerCostSavings
+nameId: "Customer Cost Savings"
+descriptionId: "Customer Cost Savings"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: true
+maximumNumber: 1000000
+listItems: []

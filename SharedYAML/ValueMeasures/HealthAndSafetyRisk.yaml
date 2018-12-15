@@ -1,0 +1,13 @@
+code: "HealthAndSafetyRisk"
+nameId: "Health and safety risk"
+descriptionId: "Health and safety risk"
+color: "#800201"
+consqUnitCode: "PoundSterling"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

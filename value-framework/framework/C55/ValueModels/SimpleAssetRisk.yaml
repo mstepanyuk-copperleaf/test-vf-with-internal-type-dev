@@ -1,0 +1,140 @@
+code: "SimpleAssetRisk"
+nameId: "Simple Asset Risk"
+descriptionId: "Simple Asset Risk based on standard condition degradation model with\
+  \ Asset Type dropdowns for Consequence"
+groupCode: "AssetModels"
+mustImpact: true
+investmentApplicability: "NotApplicable"
+assetTypes:
+- assetTypeCode: "TestAssetType"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+measures:
+- code: "SimpleAssetRiskAvoidedFutureAssetReplacement"
+  nameId: "Avoided Future Asset Replacement"
+  valueMeasureCode: "AvoidedFutureAssetReplacement"
+  sequence: 83
+- code: "SimpleAssetRiskDirectCostRiskLegacy"
+  nameId: "Direct Cost Risk (Legacy)"
+  valueMeasureCode: "DirectCostRiskLegacy"
+  sequence: 93
+- code: "SimpleAssetRiskDirectCostRiskPDF"
+  nameId: "Direct Cost Risk (PDF)"
+  valueMeasureCode: "DirectCostRiskPDF"
+  sequence: 91
+- code: "SimpleAssetRiskEnvironmentalRisk"
+  nameId: "Environmental Risk"
+  valueMeasureCode: "EnvironmentalRisk"
+  sequence: 84
+- code: "SimpleAssetRiskFinancialRisk"
+  nameId: "Financial Risk"
+  valueMeasureCode: "FinancialRisk"
+  sequence: 77
+- code: "SimpleAssetRiskLostEfficiencyOpportunityLegacy"
+  nameId: "Lost Efficiency Opportunity (Legacy)"
+  valueMeasureCode: "LostEfficiencyOpportunityLegacy"
+  sequence: 94
+- code: "SimpleAssetRiskLostGenerationRiskLegacy"
+  nameId: "Lost Generation Risk (Legacy)"
+  valueMeasureCode: "LostGenerationRiskLegacy"
+  sequence: 95
+- code: "SimpleAssetRiskLostGenerationRiskPDF"
+  nameId: "Lost Generation Risk (PDF)"
+  valueMeasureCode: "LostGenerationRiskPDF"
+  sequence: 90
+- code: "SimpleAssetRiskOMSavings"
+  nameId: "O&M Savings"
+  valueMeasureCode: "OMBudgetSavings"
+  sequence: 80
+- code: "SimpleAssetRiskProactiveReplacementCostBasePDF"
+  nameId: "Proactive Replacement Cost Base (PDF)"
+  valueMeasureCode: "ProactiveReplacementCostBasePDF"
+  sequence: 88
+- code: "SimpleAssetRiskProactiveReplacementCostPDF"
+  nameId: "Proactive Replacement Cost (PDF)"
+  valueMeasureCode: "ProactiveReplacementCostPDF"
+  sequence: 92
+- code: "SimpleAssetRiskReplacementCostNormal"
+  nameId: "Replacement Cost Normal"
+  valueMeasureCode: "ReplacementCostNormal"
+  sequence: 96
+- code: "SimpleAssetRiskSafetyRisk"
+  nameId: "Safety Risk"
+  valueMeasureCode: "SafetyRisk"
+  sequence: 76
+questionnaires:
+- code: "SimpleAssetRisk-B"
+  nameId: "Simple Asset Risk Baseline"
+  descriptionId: "Simple Asset Risk Baseline"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "SimpleAssetRiskDirectCostRiskLegacy"
+    consequenceClassName: "SimpleAssetDirectCostConsequence"
+    likelihoodClassName: "SimpleAssetConditionalProbabilityBaselineAA"
+  - measureCode: "SimpleAssetRiskDirectCostRiskPDF"
+    consequenceClassName: "SimpleAssetDirectCostConsequence"
+    likelihoodClassName: "SimpleAssetProbabilityPDFBaseline"
+  - measureCode: "SimpleAssetRiskEnvironmentalRisk"
+    consequenceClassName: "SimpleAssetEnvironmentalConsequence"
+    likelihoodClassName: "SimpleAssetEnvironmentalProbabilityBaseline"
+  - measureCode: "SimpleAssetRiskFinancialRisk"
+    consequenceClassName: "SimpleAssetFinancialConsequence"
+    likelihoodClassName: "SimpleAssetFinancialProbabilityBaseline"
+  - measureCode: "SimpleAssetRiskLostGenerationRiskLegacy"
+    consequenceClassName: "SimpleAssetLGRConsequence"
+    likelihoodClassName: "SimpleAssetConditionalProbabilityBaselineAA"
+  - measureCode: "SimpleAssetRiskLostGenerationRiskPDF"
+    consequenceClassName: "SimpleAssetLGRConsequence"
+    likelihoodClassName: "SimpleAssetProbabilityPDFBaseline"
+  - measureCode: "SimpleAssetRiskOMSavings"
+    consequenceClassName: "SimpleAssetOMSavingsConsequenceMonthly"
+  - measureCode: "SimpleAssetRiskSafetyRisk"
+    consequenceClassName: "SimpleAssetSafetyConsequence"
+    likelihoodClassName: "SimpleAssetSafetyProbabilityBaseline"
+- code: "SimpleAssetRisk-O"
+  nameId: "Simple Asset Risk Automated Mitigation"
+  descriptionId: "Simple Asset Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "SimpleAssetRiskAvoidedFutureAssetReplacement"
+    consequenceClassName: "SimpleAssetReactiveReplacementCostConsequence"
+    likelihoodClassName: "SimpleAssetReactiveReplacementCostProbability"
+  - measureCode: "SimpleAssetRiskDirectCostRiskLegacy"
+    consequenceClassName: "SimpleAssetDirectCostConsequence"
+    likelihoodClassName: "SimpleAssetConditionalProbabilityOutcomeAA"
+  - measureCode: "SimpleAssetRiskDirectCostRiskPDF"
+    consequenceClassName: "SimpleAssetDirectCostConsequence"
+    likelihoodClassName: "SimpleAssetProbabilityPDFOutcome"
+  - measureCode: "SimpleAssetRiskEnvironmentalRisk"
+    consequenceClassName: "SimpleAssetEnvironmentalConsequence"
+    likelihoodClassName: "SimpleAssetEnvironmentalProbabilityOutcome"
+  - measureCode: "SimpleAssetRiskFinancialRisk"
+    consequenceClassName: "SimpleAssetFinancialConsequence"
+    likelihoodClassName: "SimpleAssetFinancialProbabilityOutcome"
+  - measureCode: "SimpleAssetRiskLostEfficiencyOpportunityLegacy"
+    consequenceClassName: "SimpleAssetLostEfficiencyOpportunityLegacyMonthly"
+  - measureCode: "SimpleAssetRiskLostGenerationRiskLegacy"
+    consequenceClassName: "SimpleAssetLGRConsequence"
+    likelihoodClassName: "SimpleAssetConditionalProbabilityOutcomeAA"
+  - measureCode: "SimpleAssetRiskLostGenerationRiskPDF"
+    consequenceClassName: "SimpleAssetLGRConsequence"
+    likelihoodClassName: "SimpleAssetProbabilityPDFOutcome"
+  - measureCode: "SimpleAssetRiskOMSavings"
+    consequenceClassName: "SimpleAssetOMSavingsConsequenceMonthly"
+  - measureCode: "SimpleAssetRiskProactiveReplacementCostBasePDF"
+    consequenceClassName: "SimpleAssetProactiveReplacementCostConsequence"
+    likelihoodClassName: "SimpleAssetProactiveReplacementCostProbability"
+  - measureCode: "SimpleAssetRiskProactiveReplacementCostPDF"
+    consequenceClassName: "SimpleAssetProactiveReplacementCostConsequence"
+    likelihoodClassName: "SimpleAssetProactiveReplacementProbabilityPDFOutcome"
+  - measureCode: "SimpleAssetRiskReplacementCostNormal"
+    consequenceClassName: "SimpleAssetReplacementCostLegacyMonthly"
+  - measureCode: "SimpleAssetRiskSafetyRisk"
+    consequenceClassName: "SimpleAssetSafetyConsequence"
+    likelihoodClassName: "SimpleAssetSafetyProbabilityOutcome"

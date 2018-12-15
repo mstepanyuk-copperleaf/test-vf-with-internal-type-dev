@@ -1,0 +1,13 @@
+code: "PublicSafetyRisk"
+nameId: "Public Safety Risk"
+descriptionId: "Public Safety Risk"
+color: "#FF7619"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

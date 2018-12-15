@@ -1,0 +1,32 @@
+#Ignore files built by Visual Studio
+.vs
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+*.pdb
+*.cache
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+# ignore NuGet imported packages
+packages/
+#ignore some FormulaHelper files
+CL.FormulaHelper.xml
+# ignore Rider generated files
+.idea/
+#Ignore temp files created by Word and Excel
+*~$*
+#ignore built nuget files
+*.nupkg

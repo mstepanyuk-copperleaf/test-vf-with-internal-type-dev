@@ -1,0 +1,9 @@
+code: CompanyMileageCostPoundsPerMile
+nameId: "Company mileage cost (£ per mile)"
+descriptionId: "Company mileage cost (£ per mile)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 100
+listItems: []

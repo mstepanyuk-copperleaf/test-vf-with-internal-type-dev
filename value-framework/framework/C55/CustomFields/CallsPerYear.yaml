@@ -1,0 +1,10 @@
+code: "CallsPerYear"
+nameId: "Average call centre calls per year"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 100000000
+listItems: []

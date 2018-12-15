@@ -1,0 +1,13 @@
+code: "SecurityRisk"
+nameId: "Security Risk"
+descriptionId: "Security Risk"
+color: "#23FA19"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

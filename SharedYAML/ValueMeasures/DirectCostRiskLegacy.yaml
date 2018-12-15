@@ -1,0 +1,14 @@
+code: "DirectCostRiskLegacy"
+nameId: "Direct Cost Risk (Legacy)"
+descriptionId: "Direct Cost Risk (Legacy) is used to recreate the legacy behavior\
+  \ of asset analytics.  This value measure should not be used outside of asset analytics."
+color: "#F26522"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "Ignore"

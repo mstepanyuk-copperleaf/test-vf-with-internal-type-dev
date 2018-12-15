@@ -1,0 +1,35 @@
+code: "WorkingConditionsBenefit"
+nameId: "Working Conditions Benefit"
+descriptionId: "Working Conditions Benefit is aimed at measuring the effects of working\
+  \ conditions on employee productivity. While this benefit is subjective, poor working\
+  \ conditions do affect employee productivity and the ability of the organization\
+  \ to attract and retain employees."
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "WorkingConditionsBenefit"
+  nameId: "Working Conditions Benefit"
+  valueMeasureCode: "WorkingConditionsBenefit"
+  sequence: 12
+questionnaires:
+- code: "ProductWorkplaceBen-Productive Workplace Benefit-O"
+  nameId: "Productive Workplace Benefit"
+  descriptionId: "Working Conditions Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "NoEmployeesAffected"
+    sequence: 1
+  - measurePromptCode: "NoEmployeesAtRiskOfLeaving"
+    sequence: 2
+  - measurePromptCode: "WorkplaceImpactOnProductivity"
+    sequence: 3
+  - measurePromptCode: "BenefitProbabilityNTV"
+    sequence: 4
+  formulas:
+  - measureCode: "WorkingConditionsBenefit"
+    consequenceClassName: "ProductWorkplaceBenBenefitConsequenceFormula"
+    likelihoodClassName: "ProjectProbabilityFormula"

@@ -1,0 +1,9 @@
+code: "SafetyRiskConsequence"
+nameId: "Safety Risk Consequence"
+descriptionId: "Select a value from the dropdown if you wish to override the default\
+  \ Safety Risk Consequence"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "FailureSeverity"
+listItems: []

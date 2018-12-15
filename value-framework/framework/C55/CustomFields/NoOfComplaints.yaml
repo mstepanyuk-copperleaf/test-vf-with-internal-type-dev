@@ -1,0 +1,9 @@
+code: "NoOfComplaints"
+nameId: "Number of complaints (per year)"
+descriptionId: "Number of complaints (per year)"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+minimumNumber: 0
+maximumNumber: 10000
+listItems: []

@@ -1,0 +1,8 @@
+code: "CostCentre"
+nameId: "CostCentre"
+descriptionId: "What is the associated cost centre? (optional)"
+type: "Text"
+isMultiline: false
+isCloneable: true
+maximumLength: 50
+listItems: []

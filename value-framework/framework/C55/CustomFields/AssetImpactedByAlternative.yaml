@@ -1,0 +1,7 @@
+code: "AssetImpactedByAlternative"
+nameId: "AssetImpactedByAlternative"
+descriptionId: ""
+type: "CheckBox"
+isMultiline: false
+isCloneable: true
+listItems: []

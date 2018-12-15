@@ -1,0 +1,8 @@
+code: "MandComment"
+descriptionId: "Please enter a comment to justify the selected model inputs."
+customFieldCode: "Comment"
+isTimeVarying: false
+isRequired: true
+isComment: true
+shortPromptId: "Comment"
+promptTextId: "Comment"

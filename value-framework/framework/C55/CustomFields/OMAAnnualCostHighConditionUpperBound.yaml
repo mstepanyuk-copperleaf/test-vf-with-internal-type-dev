@@ -1,0 +1,12 @@
+code: "OMAAnnualCostHighConditionUpperBound"
+nameId: "Condition upper bound for assets with High ongoing maintenance costs"
+descriptionId: "Condition upper bound for assets with High ongoing maintenance costs\
+  \ (i.e. poor condition scores). Recommended value: 3"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 1
+isCurrencyValue: false
+minimumNumber: 0
+maximumNumber: 10
+listItems: []

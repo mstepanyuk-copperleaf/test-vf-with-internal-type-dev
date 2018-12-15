@@ -1,0 +1,16 @@
+code: "TonnesC02E"
+nameId: "Tonnes C02e"
+descriptionId: "Tonnes of C02 equivalent"
+unitType: "Weight"
+literal:
+  editFormat: "#,###,##0.##"
+  displayFormat: "#,###,##0.##;(#,###,##0.##);0"
+  symbol: "T C02e"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

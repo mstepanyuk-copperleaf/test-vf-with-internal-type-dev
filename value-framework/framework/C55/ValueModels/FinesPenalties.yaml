@@ -1,0 +1,45 @@
+code: "FinesPenalties"
+nameId: "Fines & Penalties"
+descriptionId: "Fines & Penalties"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "FinesPenalties"
+  nameId: "Fines & Penalties"
+  valueMeasureCode: "FinesPenalties"
+  sequence: 29
+questionnaires:
+- code: "AutoMitigation"
+  nameId: "Automatic Mitigation"
+  descriptionId: "Automatic Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "FinesPenalties"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "FinesPenalties-B"
+  nameId: "Fines & Penalties"
+  descriptionId: "Fines & Penalties"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "SLAViolation"
+    sequence: 1
+  - measurePromptCode: "ContractViolation"
+    sequence: 2
+  - measurePromptCode: "FineAmount"
+    sequence: 3
+  - measurePromptCode: "FineLikelihood"
+    sequence: 4
+  - measurePromptCode: "Rationale"
+    sequence: 5
+  formulas:
+  - measureCode: "FinesPenalties"
+    consequenceClassName: "FinesPenaltiesConsequenceBaseline"
+    likelihoodClassName: "FinesPenaltiesLikelihoodBaseline"

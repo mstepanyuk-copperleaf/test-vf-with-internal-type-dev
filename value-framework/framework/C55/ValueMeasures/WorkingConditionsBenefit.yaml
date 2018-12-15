@@ -1,0 +1,13 @@
+code: "WorkingConditionsBenefit"
+nameId: "Working Conditions Benefit"
+descriptionId: "Working Conditions Benefit"
+color: "#CD6600"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

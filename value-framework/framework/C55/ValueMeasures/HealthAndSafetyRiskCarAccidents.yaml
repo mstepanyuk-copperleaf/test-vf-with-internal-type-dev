@@ -1,0 +1,13 @@
+code: "HealthAndSafetyRiskCarAccidents"
+nameId: "Health and safety risk (Car accidents)"
+descriptionId: "Health and safety risk (Car accidents)"
+color: "#800207"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

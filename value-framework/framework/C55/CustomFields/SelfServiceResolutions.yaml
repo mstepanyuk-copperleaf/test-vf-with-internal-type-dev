@@ -1,0 +1,10 @@
+code: SelfServiceResolutions
+nameId: "Self Service Resolutions"
+descriptionId: "Self Service Resolutions"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 10000000
+listItems: []

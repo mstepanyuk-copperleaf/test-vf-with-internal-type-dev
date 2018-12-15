@@ -1,0 +1,13 @@
+code: "EnvironmentalRisk"
+nameId: "Environmental Risk"
+descriptionId: "Environmental Risk"
+color: "#023FA6"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

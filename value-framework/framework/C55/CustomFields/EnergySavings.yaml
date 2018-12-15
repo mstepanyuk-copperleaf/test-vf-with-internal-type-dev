@@ -1,0 +1,9 @@
+code: EnergySavings
+nameId: "Energy Savings"
+descriptionId: "Energy Savings"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 1000000000
+listItems: []

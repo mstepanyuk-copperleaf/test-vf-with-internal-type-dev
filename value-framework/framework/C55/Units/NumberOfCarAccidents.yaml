@@ -1,0 +1,16 @@
+code: "NumberOfCarAccidents"
+nameId: "Number of car accidents"
+descriptionId: "Number of car accidents"
+unitType: "UnitQuantity"
+literal:
+  editFormat: "0.##"
+  displayFormat: "#,##0.00;(#,##0.00);0.00"
+  symbol: "# car accidents"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

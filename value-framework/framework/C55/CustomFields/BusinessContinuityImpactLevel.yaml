@@ -1,0 +1,29 @@
+code: BusinessContinuityImpactLevel
+nameId: "Business Continuity Impact Level"
+descriptionId: ""
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+isCurrencyValue: false
+listItems:
+- code: "A) Substantially unable to perform their function"
+  nameId: "A) Substantially unable to perform their function"
+  value: 0.9
+  isObsolete: false
+- code: "B) 50% productive (50% decrease in productivity)"
+  nameId: "B) 50% productive (50% decrease in productivity)"
+  value: 0.5
+  isObsolete: false
+- code: "C) 75% productive (25% decrease in productivity)"
+  nameId: "C) 75% productive (25% decrease in productivity)"
+  value: 0.25
+  isObsolete: false
+- code: "D) 90% productive (10% decrease in productivity)"
+  nameId: "D) 90% productive (10% decrease in productivity)"
+  value: 0.1
+  isObsolete: false
+- code: "E) Minor impact to productivity"
+  nameId: "E) Minor impact to productivity"
+  value: 0.01
+  isObsolete: false

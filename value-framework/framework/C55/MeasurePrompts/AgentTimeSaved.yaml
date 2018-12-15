@@ -1,0 +1,9 @@
+code: AgentTimeSaved
+descriptionId: ""
+customFieldCode: "AgentTimeSaved"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected decrease in customer agent time to resolve based\
+  \ on this investment? (hrs)"

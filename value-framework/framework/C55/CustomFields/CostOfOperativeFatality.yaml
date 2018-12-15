@@ -1,0 +1,9 @@
+code: CostOfOperativeFatality
+nameId: "Cost of operative fatality (£)"
+descriptionId: "Cost of operative fatality (£)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 2000000
+listItems: []

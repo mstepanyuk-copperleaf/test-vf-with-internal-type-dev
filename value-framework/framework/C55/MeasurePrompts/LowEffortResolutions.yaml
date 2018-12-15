@@ -1,0 +1,10 @@
+code: LowEffortResolutions
+descriptionId: ""
+customFieldCode: "LowEffortResolutions"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected increase in the number of customers reporting\
+  \  “Very low effort”  or “Low effort”  when describing their interaction with our\
+  \ company?"

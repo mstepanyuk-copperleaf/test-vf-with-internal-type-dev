@@ -1,0 +1,10 @@
+code: OfficeEmployeeCostPerHour
+nameId: "OfficeEmployeeCostperHour"
+descriptionId: "Assumption - Office employee cost per hour - used in Employee Productivity\
+  \ Benefit"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 1000000
+listItems: []

@@ -1,0 +1,16 @@
+code: "MegawattHour"
+nameId: "Megawatt Hour"
+descriptionId: "1,000,000 Watt Hour"
+unitType: "Energy"
+literal:
+  editFormat: "0"
+  displayFormat: "#,##0;(#,##0);0"
+  symbol: "MWh"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

@@ -1,0 +1,15 @@
+code: "LostEfficiencyOpportunityLegacy"
+nameId: "Lost Efficiency Opportunity (Legacy)"
+descriptionId: "Lost Efficiency Opportunity (Legacy) is used to recreate the legacy\
+  \ behavior of asset analytics.  This value measure should not be used outside of\
+  \ asset analytics."
+color: "#D161B9"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "FinancialCost"

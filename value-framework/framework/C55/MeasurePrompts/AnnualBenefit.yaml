@@ -1,0 +1,8 @@
+code: "AnnualBenefit"
+descriptionId: "Annual Economic Benefit ($)"
+customFieldCode: "AnnualBenefit"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual benefit"
+promptTextId: "Annual Economic Benefit ($)"

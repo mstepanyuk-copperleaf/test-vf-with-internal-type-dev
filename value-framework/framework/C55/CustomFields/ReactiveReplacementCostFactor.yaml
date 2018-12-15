@@ -1,0 +1,10 @@
+code: ReactiveReplacementCostFactor
+nameId: "Reactive Replacement Cost Factor"
+descriptionId: "Reactive Replacement Cost Factor"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 10
+listItems: []

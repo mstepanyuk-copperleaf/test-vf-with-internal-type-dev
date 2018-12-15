@@ -1,0 +1,11 @@
+code: WorkplaceImpactOnAttractiveness
+descriptionId: "Impact on the attractiveness to candidates:\n- Very Significant (10%\
+  \ impact on attractiveness)\n- Significant (3% impact on attractiveness)\n- Moderate\
+  \ (1% impact on attractiveness)\n- Minor (0.5% impact on attractiveness)"
+customFieldCode: "WorkplaceImpactOnAttractiveness"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What impact are the"
+promptTextId: "What impact are the workplace improvements expected to have on the\
+  \ attractiveness of the company to these potential candidates?"

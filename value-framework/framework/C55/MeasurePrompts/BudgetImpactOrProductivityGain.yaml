@@ -1,0 +1,8 @@
+code: BudgetImpactOrProductivityGain
+descriptionId: "Budget Impact or Productivity Gain"
+customFieldCode: "BudgetImpactOrProductivityGain"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Budget Impact or Pro"
+promptTextId: "Budget Impact or Productivity Gain"

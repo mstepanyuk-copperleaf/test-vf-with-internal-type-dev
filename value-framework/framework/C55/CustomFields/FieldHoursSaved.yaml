@@ -1,0 +1,9 @@
+code: "FieldHoursSaved"
+nameId: "FieldHoursSaved"
+descriptionId: "Per field employee, how many hours will be saved (per year)?"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 1000000
+listItems: []

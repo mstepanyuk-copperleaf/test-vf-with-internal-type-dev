@@ -1,0 +1,25 @@
+code: WorkplaceImpactOnAttractiveness
+nameId: "Workplace Impact On Attractiveness"
+descriptionId: "What impact are the workplace improvements expected to have on the\
+  \ attractiveness of the company to these potential candidates?"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) Very Significant (10% impact on attractiveness)"
+  nameId: "A) Very Significant (10% impact on attractiveness)"
+  value: 0.1
+  isObsolete: false
+- code: "B) Significant (3% impact on attractiveness)"
+  nameId: "B) Significant (3% impact on attractiveness)"
+  value: 0.03
+  isObsolete: false
+- code: "C) Moderate (1% impact on attractiveness)"
+  nameId: "C) Moderate (1% impact on attractiveness)"
+  value: 0.01
+  isObsolete: false
+- code: "D) Minor (0.5% impact on attractiveness)"
+  nameId: "D) Minor (0.5% impact on attractiveness)"
+  value: 0.005
+  isObsolete: false

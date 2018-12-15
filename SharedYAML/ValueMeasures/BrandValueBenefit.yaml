@@ -1,0 +1,13 @@
+code: "BrandValueBenefit"
+nameId: "Brand Value Benefit"
+descriptionId: "Brand Value Benefit"
+color: "#23FA23"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,56 @@
+code: CyberSecurityRisk
+nameId: "Cyber Security Risk"
+descriptionId: "Cyber Security Risk"
+groupCode: "Safety & Security"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CyberSecurityRisk"
+  nameId: "Cyber Security Risk"
+  valueMeasureCode: "CyberSecurityRisk"
+  sequence: 13
+questionnaires:
+- code: "Automated Risk Mitigation-Cyber Security Risk-O"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Cyber Security Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "CyberSecurityRisk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "Manual Risk-Cyber Security Risk-B"
+  nameId: "Manual Risk"
+  descriptionId: "Cyber Security Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 30
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 102
+  - measurePromptCode: "Rationale"
+    sequence: 168
+  formulas:
+  - measureCode: "CyberSecurityRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "Manual Risk-Cyber Security Risk-O"
+  nameId: "Manual Risk"
+  descriptionId: "Cyber Security Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 46
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 118
+  formulas:
+  - measureCode: "CyberSecurityRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"

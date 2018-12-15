@@ -1,0 +1,16 @@
+code: "Meter"
+nameId: "Meter"
+descriptionId: "Meter, base unit."
+unitType: "Distance"
+literal:
+  editFormat: "0.##"
+  displayFormat: "#,##0.00;(#,##0.00);0.00"
+  symbol: "m"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

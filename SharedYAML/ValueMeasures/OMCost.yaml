@@ -1,0 +1,13 @@
+code: "OMCost"
+nameId: "O&M Cost"
+descriptionId: "O&M Cost"
+color: "#72C519"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

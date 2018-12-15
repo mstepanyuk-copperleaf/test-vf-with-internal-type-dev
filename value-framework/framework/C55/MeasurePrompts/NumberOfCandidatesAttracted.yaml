@@ -1,0 +1,10 @@
+code: NumberOfCandidatesAttracted
+descriptionId: ""
+customFieldCode: "NumberOfCandidatesAttracted"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many potential c"
+promptTextId: "How many potential candidates will be attracted to the company if these\
+  \ improvements are made?"
+defaultValue: "0"

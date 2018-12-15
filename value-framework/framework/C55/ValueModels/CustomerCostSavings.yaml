@@ -1,0 +1,30 @@
+code: CustomerCostSavings
+nameId: "Customer Cost Savings"
+descriptionId: "Customer Cost Savings"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CustomerCostSavings"
+  nameId: "Customer Cost Savings"
+  valueMeasureCode: "CustomerCostSavings"
+  sequence: 29
+questionnaires:
+- code: "Customer Cost Savings-O"
+  nameId: "Customer Cost Savings"
+  descriptionId: ""
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "CustomerCostSavings"
+    sequence: 201
+  - measurePromptCode: "BenefitProbability"
+    sequence: 202
+  - measurePromptCode: "Rationale"
+    sequence: 203
+  formulas:
+  - measureCode: "CustomerCostSavings"
+    consequenceClassName: "CustomerCostSavingsConsequence"
+    likelihoodClassName: "BenefitLikelihood"

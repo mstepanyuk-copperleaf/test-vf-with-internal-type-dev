@@ -1,0 +1,9 @@
+code: "OutcomeConditionScore"
+descriptionId: "Asset Condition Score after investment is complete"
+customFieldCode: "ConditionScore"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Asset Condition Scor"
+promptTextId: "Asset Condition Score after investment is complete"
+defaultValue: "10"

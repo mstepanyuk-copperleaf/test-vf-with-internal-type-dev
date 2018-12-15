@@ -1,0 +1,8 @@
+code: "ManagerHoursAdditional"
+descriptionId: ""
+customFieldCode: "ManagerHoursAdditional"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Per M&E, how many ad"
+promptTextId: "Per M&E, how many additional hours will be required (per year)?"

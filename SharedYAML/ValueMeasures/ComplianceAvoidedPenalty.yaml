@@ -1,0 +1,13 @@
+code: "ComplianceAvoidedPenalty"
+nameId: "Compliance - Avoided Penalty"
+descriptionId: "Compliance risk"
+color: "#800172"
+consqUnitCode: "PoundSterling"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialCost"

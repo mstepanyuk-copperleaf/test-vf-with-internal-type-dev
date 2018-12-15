@@ -1,0 +1,9 @@
+code: DollarConsequenceAmount
+nameId: "Dollar Consequence Amount"
+descriptionId: "Enter the consequence amount in dollars ($)"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 10000000000
+listItems: []

@@ -1,0 +1,30 @@
+code: OtherEconomicBenefit
+nameId: "Other Economic Benefit"
+descriptionId: "Investments that bring other economic benefits"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "OtherEconomicBenefit"
+  nameId: "Other Economic Benefit"
+  valueMeasureCode: "OtherEconomicBenefit"
+  sequence: 1017
+questionnaires:
+- code: "Other Economic Benefit-O"
+  nameId: "Other Economic Benefit"
+  descriptionId: "Other Economic Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "OtherEconomicBenefitAmount"
+    sequence: 1
+  - measurePromptCode: "PopBenefitProbability"
+    sequence: 2
+  - measurePromptCode: "Rationale"
+    sequence: 3
+  formulas:
+  - measureCode: "OtherEconomicBenefit"
+    consequenceClassName: "OtherEconomicBenefitConsequence"
+    likelihoodClassName: "POPBenefitLikelihood"

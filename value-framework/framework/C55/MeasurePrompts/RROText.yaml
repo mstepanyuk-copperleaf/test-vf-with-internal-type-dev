@@ -1,0 +1,10 @@
+code: "RROText"
+descriptionId: "Provide the rationale or assumptions for the answers provided above.\
+  \ This rationale may correspond to answers to the OEB questions entered on the Project\
+  \ Details page."
+customFieldCode: "RROText"
+isTimeVarying: true
+isRequired: true
+isComment: true
+shortPromptId: "Rationale?"
+promptTextId: "Provide the rationale or assumptions for the answers provided above."

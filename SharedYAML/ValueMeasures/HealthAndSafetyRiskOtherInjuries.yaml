@@ -1,0 +1,13 @@
+code: "HealthAndSafetyRiskOtherInjuries"
+nameId: "Health and safety risk (Other injuries)"
+descriptionId: "Health and safety risk (Other injuries)"
+color: "#800206"
+consqUnitCode: "PoundSterling"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

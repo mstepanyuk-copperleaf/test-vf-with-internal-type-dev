@@ -1,0 +1,13 @@
+code: "UnmitigatedHighRisk"
+nameId: "Unmitigated High Risk"
+descriptionId: "Unmitigated High Risk"
+color: "#114570"
+consqUnitCode: "Unit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Maximum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

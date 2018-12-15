@@ -1,0 +1,8 @@
+code: "Comment"
+nameId: "Comment"
+descriptionId: "Please enter an optional comment to justify the selected model inputs."
+type: "BigText"
+isMultiline: true
+isCloneable: true
+maximumLength: 10000
+listItems: []

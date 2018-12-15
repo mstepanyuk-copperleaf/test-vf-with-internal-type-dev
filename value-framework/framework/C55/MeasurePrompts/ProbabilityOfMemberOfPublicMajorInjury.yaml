@@ -1,0 +1,8 @@
+code: ProbabilityOfMemberOfPublicMajorInjury
+descriptionId: ""
+customFieldCode: "ProbabilityOfInjury"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Probability of membe"
+promptTextId: "Probability of member of public major injury (%)?"

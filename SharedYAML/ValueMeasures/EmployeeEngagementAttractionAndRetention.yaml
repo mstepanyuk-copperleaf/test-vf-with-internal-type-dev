@@ -1,0 +1,13 @@
+code: "EmployeeEngagementAttractionAndRetention"
+nameId: "Employee Engagement, Attraction and Retention"
+descriptionId: "Employee Engagement, Attraction and Retention"
+color: "#780229"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

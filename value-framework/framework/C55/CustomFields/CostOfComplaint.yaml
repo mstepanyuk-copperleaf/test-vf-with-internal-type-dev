@@ -1,0 +1,9 @@
+code: "CostOfComplaint"
+nameId: "Cost of complaints (per complaint)"
+descriptionId: "Cost of complaints (per complaint)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 100000
+listItems: []

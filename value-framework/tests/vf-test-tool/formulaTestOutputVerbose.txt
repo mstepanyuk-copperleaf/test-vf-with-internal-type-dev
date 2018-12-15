@@ -1,0 +1,32 @@
+Value Framework Tester, version#: 39 started: 01/11/2018 4:07:49 PM
+
+
+01/11/2018 4:07:51 PM>	Case: 2	Model: Cost Avoidance
+01/11/2018 4:07:51 PM>			Test#: 1, formulas#: 21.1, 75.1, PASSED
+
+01/11/2018 4:07:51 PM>			Test#: 1, formulas#: 59.1, 0.0, PASSED
+
+01/11/2018 4:07:51 PM>			Test#: 1, PASSED
+
+01/11/2018 4:07:51 PM>			Test#: 1, formulas#: 22.1, 75.1, PASSED
+
+01/11/2018 4:07:51 PM>			Test#: 1, PASSED
+
+01/11/2018 4:07:51 PM>			Test#: 1, formulas#: 19.1, 75.1, PASSED
+
+01/11/2018 4:07:51 PM>			Test#: 1, formulas#: 59.1, 0.0, PASSED
+
+01/11/2018 4:07:51 PM>			Test#: 1, formulas#: 20.1, 75.1, PASSED
+
+01/11/2018 4:07:51 PM>		Test counts =>  PASSED: 6 / FAILED: 0 / Pass%: 100
+
+Value Framework Tester, version#: 39 started: 01/11/2018 4:07:53 PM
+
+
+01/11/2018 4:07:55 PM>	Case: 25	Model: Environmental Benefit
+01/11/2018 4:07:55 PM>			Test#: 1, formulas#: 36.1, 76.1, PASSED
+
+01/11/2018 4:07:55 PM>			Test#: 1, PASSED
+
+01/11/2018 4:07:55 PM>		Test counts =>  PASSED: 1 / FAILED: 0 / Pass%: 100
+

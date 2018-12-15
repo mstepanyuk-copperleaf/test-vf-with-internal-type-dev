@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+<metadata>
+  <id>Copperleaf.ValueFrameworkLibrary.TestHelpers</id>
+  <version>2.2.1</version>
+  <title>Test Helpers</title>
+  <authors>Value Framework team</authors>
+  <owners>Value Framework team</owners>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  <description>This library contains functions useful for building tests</description>
+  <releaseNotes>Added capability of specifying year to BuildTimeVariantData</releaseNotes>
+  <copyright>Copyright 2018</copyright>
+  <tags>Test Helpers</tags>
+</metadata>
+</package>

@@ -1,0 +1,13 @@
+code: "CustomerServiceBenefit"
+nameId: "Customer Service Benefit"
+descriptionId: "Customer Service Benefit"
+color: "#19AFD4"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

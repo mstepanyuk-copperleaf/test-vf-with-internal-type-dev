@@ -1,0 +1,54 @@
+- code: "None"
+  nameId: "None"
+  defaultDescriptionId: "Consequence 0"
+  maxValue: 1
+  averageValue: 0
+  measureDescriptions: []
+- code: "VeryMinor"
+  nameId: "Very Minor"
+  defaultDescriptionId: "Consequence 30"
+  maxValue: 50
+  averageValue: 30
+  measureDescriptions: []
+- code: "Low"
+  nameId: "Low"
+  defaultDescriptionId: "Consequence 100"
+  maxValue: 150
+  averageValue: 100
+  measureDescriptions: []
+- code: "Minor"
+  nameId: "Minor"
+  defaultDescriptionId: "Consequence 300"
+  maxValue: 500
+  averageValue: 300
+  measureDescriptions: []
+- code: "Moderate"
+  nameId: "Moderate"
+  defaultDescriptionId: "Consequence 1,000"
+  maxValue: 1500
+  averageValue: 1000
+  measureDescriptions: []
+- code: "Significant"
+  nameId: "Significant"
+  defaultDescriptionId: "Consequence 3,000"
+  maxValue: 5000
+  averageValue: 3000
+  measureDescriptions: []
+- code: "Major"
+  nameId: "Major"
+  defaultDescriptionId: "Consequence 10,000"
+  maxValue: 15000
+  averageValue: 10000
+  measureDescriptions: []
+- code: "Catastrophic"
+  nameId: "Catastrophic"
+  defaultDescriptionId: "Consequence 30,000"
+  maxValue: 50000
+  averageValue: 30000
+  measureDescriptions: []
+- code: "Extreme"
+  nameId: "Extreme"
+  defaultDescriptionId: "Consequence 100,000"
+  maxValue: 400000
+  averageValue: 100000
+  measureDescriptions: []

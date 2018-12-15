@@ -1,0 +1,7 @@
+code: NonTradedPriceOfCarbonPerTonnesC02e
+nameId: "Non-traded price of carbon (per Tonnes C02e)"
+descriptionId: "Non-traded price of carbon (per Tonnes C02e)"
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

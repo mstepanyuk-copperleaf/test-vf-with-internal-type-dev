@@ -1,0 +1,56 @@
+code: PublicSafetyRisk
+nameId: "Public Safety Risk"
+descriptionId: "Public Safety Risk"
+groupCode: "Safety & Security"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "PublicSafetyRisk"
+  nameId: "Public Safety Risk"
+  valueMeasureCode: "PublicSafetyRisk"
+  sequence: 47
+questionnaires:
+- code: "Automated Risk Mitigation-Public Safety Risk-O"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Public Safety Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "PublicSafetyRisk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "Manual Risk-Public Safety Risk-B"
+  nameId: "Manual Risk"
+  descriptionId: "Public Safety Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 39
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 111
+  - measurePromptCode: "Rationale"
+    sequence: 177
+  formulas:
+  - measureCode: "PublicSafetyRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "Manual Risk-Public Safety Risk-O"
+  nameId: "Manual Risk"
+  descriptionId: "Public Safety Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 55
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 127
+  formulas:
+  - measureCode: "PublicSafetyRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"

@@ -1,0 +1,10 @@
+code: "CarAccidentCost"
+nameId: "Car accident cost (£)"
+descriptionId: "Average cost of an accident is a direct cost to NGN found from previous\
+  \ accident claims."
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 10000
+listItems: []

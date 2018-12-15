@@ -1,0 +1,20 @@
+code: "FinancialBenefitType"
+nameId: "FinancialBenefitType"
+descriptionId: "What is the Financial Benefit/Cost type?"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "CostAvoidance"
+  nameId: "Cost Avoidance"
+  value: 1
+  isObsolete: false
+- code: "Cost Savings/Cost Increase"
+  nameId: "Cost Savings/Cost Increase"
+  value: 2
+  isObsolete: false
+- code: "RevenueIncrease"
+  nameId: "Revenue Increase"
+  value: 3
+  isObsolete: false

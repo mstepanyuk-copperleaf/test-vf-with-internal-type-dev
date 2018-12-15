@@ -1,0 +1,8 @@
+code: PowerSavings
+descriptionId: "The value of the energy savings created by the proposed investment"
+customFieldCode: "PowerSavings"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected annual power savings from this investment (MWh)?"

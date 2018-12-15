@@ -1,0 +1,8 @@
+code: NumberOfOperativesAffected
+descriptionId: ""
+customFieldCode: "NumberOfInjuries"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Number of operatives"
+promptTextId: "Number of operatives affected?"

@@ -1,0 +1,8 @@
+code: "CostCentre"
+descriptionId: ""
+customFieldCode: "CostCentre"
+isTimeVarying: true
+isRequired: false
+isComment: false
+shortPromptId: "What is the associat"
+promptTextId: "What is the associated cost centre? (optional)"

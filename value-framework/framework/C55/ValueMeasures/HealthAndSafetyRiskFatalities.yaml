@@ -1,0 +1,13 @@
+code: "HealthAndSafetyRiskFatalities"
+nameId: "Health and safety risk (Fatalities)"
+descriptionId: "Health and safety risk (Fatalities)"
+color: "#800200"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

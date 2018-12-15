@@ -1,0 +1,8 @@
+code: VendorTechnicalExperience
+descriptionId: ""
+customFieldCode: "VendorTechnicalExperience"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Vendor Technical Exp"
+promptTextId: "Are vendor or SI personnel capable with the required technical tools?"

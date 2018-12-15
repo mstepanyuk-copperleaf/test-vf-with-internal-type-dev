@@ -1,0 +1,8 @@
+code: HoursSaved
+descriptionId: "Number of hours saved by this investment"
+customFieldCode: "HoursSaved"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Hours Saved"
+promptTextId: "Number of hours saved by this investment"

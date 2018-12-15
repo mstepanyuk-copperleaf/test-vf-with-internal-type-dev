@@ -1,0 +1,9 @@
+code: "AssetValue"
+descriptionId: "Please enter the total cost (£) incurred for the initial purchase\
+  \ and installation of the fixed asset."
+customFieldCode: "AssetValue"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "What is the acquisit"
+promptTextId: "What is the acquisition cost of the asset (£)?"

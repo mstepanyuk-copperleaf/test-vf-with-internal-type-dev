@@ -1,0 +1,8 @@
+code: "NoOfficeEmployees"
+descriptionId: ""
+customFieldCode: "NoOfficeEmployees"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many office empl"
+promptTextId: "How many office employees will be impacted, following this investment?"

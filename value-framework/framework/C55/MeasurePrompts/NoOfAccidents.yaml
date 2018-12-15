@@ -1,0 +1,8 @@
+code: "NoOfAccidents"
+descriptionId: "Please enter the annual average number of car accidents."
+customFieldCode: "NoOfAccidents"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual number of car"
+promptTextId: "Annual number of car accidents?"

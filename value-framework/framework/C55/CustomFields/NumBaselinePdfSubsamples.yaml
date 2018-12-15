@@ -1,0 +1,10 @@
+code: "NumBaselinePdfSubsamples"
+nameId: "Number of baseline PDF subsamples"
+descriptionId: "Number of baseline PDF subsamples - NEED BETTER DESCRIPTION"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 25
+listItems: []

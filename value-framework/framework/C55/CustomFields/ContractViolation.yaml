@@ -1,0 +1,7 @@
+code: "ContractViolation"
+nameId: "Contract Violation"
+descriptionId: "Contract Violation"
+type: "CheckBox"
+isMultiline: false
+isCloneable: true
+listItems: []

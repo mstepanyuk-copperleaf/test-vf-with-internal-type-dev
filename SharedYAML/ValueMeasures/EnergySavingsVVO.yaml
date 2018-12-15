@@ -1,0 +1,13 @@
+code: "EnergySavingsVVO"
+nameId: "Energy Savings VVO"
+descriptionId: "Energy Savings VVO"
+color: "#004602"
+consqUnitCode: "MegawattHour"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,42 @@
+code: "ConditionScore"
+nameId: "Condition Score Value Model"
+descriptionId: "Condition Score Value Model"
+groupCode: "AssetModels"
+mustImpact: true
+investmentApplicability: "NotApplicable"
+assetTypes:
+- assetTypeCode: "TestAssetType"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+measures:
+- code: "Condition"
+  nameId: "Condition Score"
+  valueMeasureCode: "ConditionScore"
+  sequence: 1
+questionnaires:
+- code: "ConditionScore-B"
+  nameId: "Asset Risk Condition Score Baseline"
+  descriptionId: "Asset Risk Condition Score Baseline"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "ConditionScore"
+    sequence: 1
+  formulas:
+  - measureCode: "Condition"
+    consequenceClassName: "ConditionBaselineConsequence"
+- code: "ConditionScore-O"
+  nameId: "Asset Risk Condition Score Outcome"
+  descriptionId: "Asset Risk Condition Score Outcome"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "OutcomeConditionScore"
+    sequence: 2
+  - measurePromptCode: "AssetImpactedByAlternative"
+    sequence: 3
+  formulas:
+  - measureCode: "Condition"
+    consequenceClassName: "ConditionOutcomeConsequence"

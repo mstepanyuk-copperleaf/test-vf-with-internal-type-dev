@@ -1,0 +1,8 @@
+code: PMsPreviousExperience
+descriptionId: ""
+customFieldCode: "PMsPreviousExperience"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "PM's Previous Experi"
+promptTextId: "Describe PM's previous project experience"

@@ -1,0 +1,9 @@
+code: CO2Reduction
+descriptionId: "Quantity of CO2 emissions that will be reduced each year (tonnes)"
+customFieldCode: "CO2Reduction"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "CO2 Reduction"
+promptTextId: "What is the quantity of CO2 emissions that will be reduced each year?\
+  \ (tonnes)"

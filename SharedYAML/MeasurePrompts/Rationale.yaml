@@ -1,0 +1,9 @@
+code: "Rationale"
+descriptionId: "Provide background information justifying selection of answers (Max\
+  \ 10,000 characters)"
+customFieldCode: "Rationale"
+isTimeVarying: false
+isRequired: true
+isComment: true
+shortPromptId: "Provide any rational"
+promptTextId: "Provide any rationale or assumptions for the numbers provided"

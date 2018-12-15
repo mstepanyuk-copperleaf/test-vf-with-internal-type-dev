@@ -1,0 +1,9 @@
+code: CostsIncurredIfThisInvestmentIsNotUndertaken
+nameId: "Costs incurred if this investment is not undertaken"
+descriptionId: "Costs incurred if this investment is not undertaken"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 10000000000
+listItems: []

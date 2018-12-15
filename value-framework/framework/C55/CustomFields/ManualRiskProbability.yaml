@@ -1,0 +1,8 @@
+code: "ManualRiskProbability"
+nameId: "ManualRiskProbability"
+descriptionId: "What is the consequence of this event occurring?"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Likelihood"
+listItems: []

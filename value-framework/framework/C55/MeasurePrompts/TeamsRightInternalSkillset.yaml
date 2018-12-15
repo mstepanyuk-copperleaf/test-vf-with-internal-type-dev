@@ -1,0 +1,8 @@
+code: TeamsRightInternalSkillset
+descriptionId: ""
+customFieldCode: "TeamsRightInternalSkillset"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Team's Right Interna"
+promptTextId: "Does the team have the right internal skillset required for the project?"

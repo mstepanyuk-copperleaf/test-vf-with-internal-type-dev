@@ -1,0 +1,11 @@
+code: "FineAmount"
+nameId: "Fine Amount"
+descriptionId: "Fine Amount"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: true
+minimumNumber: 0
+maximumNumber: 1000000000
+listItems: []

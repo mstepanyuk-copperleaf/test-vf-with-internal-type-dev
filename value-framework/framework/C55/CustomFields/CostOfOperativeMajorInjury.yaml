@@ -1,0 +1,9 @@
+code: CostOfOperativeMajorInjury
+nameId: "Cost of operative major injury (£)"
+descriptionId: "Cost of operative major injury (£)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 2000000
+listItems: []

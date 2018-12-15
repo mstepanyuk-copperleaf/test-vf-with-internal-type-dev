@@ -1,0 +1,10 @@
+code: CostsSaved
+descriptionId: "What is the expected total cost savings resulting from this investment?\
+  \ ($)"
+customFieldCode: "CostsSaved"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Costs Saved"
+promptTextId: "What is the expected total cost savings resulting from this investment?\
+  \ ($)"

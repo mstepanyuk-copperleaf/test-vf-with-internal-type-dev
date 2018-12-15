@@ -1,0 +1,8 @@
+code: "NoOfInjuriesDSE"
+descriptionId: "Please enter the annual average number of expected DSE injuries."
+customFieldCode: "NumberOfInjuries"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual number of DSE"
+promptTextId: "Annual number of DSE injuries?"

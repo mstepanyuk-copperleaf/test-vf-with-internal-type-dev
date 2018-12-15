@@ -1,0 +1,9 @@
+code: "NoOfInjuriesOther"
+descriptionId: "Please enter the annual average number of expected Other injuries.\
+  \ Other injuries include: <Insert list here>."
+customFieldCode: "NumberOfInjuries"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual number of Oth"
+promptTextId: "Annual number of Other injuries?"

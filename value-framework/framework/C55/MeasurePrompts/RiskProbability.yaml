@@ -1,0 +1,8 @@
+code: "RiskProbability"
+descriptionId: "Probability levels per Risk Matrix"
+customFieldCode: "RiskProbability"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Risk Probability (an"
+promptTextId: "Risk Probability (annual)?"

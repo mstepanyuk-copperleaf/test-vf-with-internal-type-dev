@@ -1,0 +1,16 @@
+code: "PoundSterling"
+nameId: "Pound Sterling"
+descriptionId: "Pound Sterling"
+unitType: "Currency"
+literal:
+  editFormat: "#,###,##0.##"
+  displayFormat: "£#,###,##0.##;(£#,###,##0.##);£0"
+  symbol: "£"
+thousands:
+  editFormat: "0,.#####"
+  displayFormat: "£#,##0,;(£#,##0,);£0"
+  symbol: "£K"
+millions:
+  editFormat: "0,,.########"
+  displayFormat: "£#,##0,,;(£#,##0,,);£0"
+  symbol: "£M"

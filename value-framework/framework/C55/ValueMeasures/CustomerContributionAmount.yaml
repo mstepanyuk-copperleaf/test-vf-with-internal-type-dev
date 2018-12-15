@@ -1,0 +1,13 @@
+code: "CustomerContributionAmount"
+nameId: "Customer Contribution Amount"
+descriptionId: "Customer Contribution Amount"
+color: "#38A23D"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "FinancialBenefit"

@@ -1,0 +1,13 @@
+code: "CostSavingsCapital"
+nameId: "Cost Savings - Capital"
+descriptionId: "Cost Savings - Capital"
+color: "#23FA48"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

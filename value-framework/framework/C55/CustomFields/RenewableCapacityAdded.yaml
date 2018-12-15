@@ -1,0 +1,8 @@
+code: RenewableCapacityAdded
+nameId: "Renewable Capacity Added"
+descriptionId: "Renewable Capacity Added"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 10000000000
+listItems: []

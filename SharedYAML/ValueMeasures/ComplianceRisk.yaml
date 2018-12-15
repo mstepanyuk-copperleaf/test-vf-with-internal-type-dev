@@ -1,0 +1,13 @@
+code: "ComplianceRisk"
+nameId: "Compliance Risk"
+descriptionId: "Compliance Risk"
+color: "#EAD3C6"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

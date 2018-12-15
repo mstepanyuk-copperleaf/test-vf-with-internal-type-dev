@@ -1,0 +1,10 @@
+code: PercentageOfCustomersImpacted
+nameId: "Percentage of Customers Impacted"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

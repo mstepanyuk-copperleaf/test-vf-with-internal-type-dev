@@ -1,0 +1,9 @@
+code: "PercentReduction"
+descriptionId: "Please enter the expected percentage reduction. A reduction of 50%\
+  \ would be entered as 50."
+customFieldCode: "PercentReduction"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "What is the expected"
+promptTextId: "What is the expected reduction (%)?"

@@ -1,0 +1,9 @@
+code: "SF6Reduction"
+nameId: "SF6 Reduction"
+descriptionId: "SF6 Reduction"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 1
+maximumNumber: 10000
+listItems: []

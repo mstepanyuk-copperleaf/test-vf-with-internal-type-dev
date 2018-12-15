@@ -1,0 +1,9 @@
+code: "CO2ReductionTV"
+nameId: "CO2 Reduction TV"
+descriptionId: "CO2 Reduction"
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 1000000000
+listItems: []

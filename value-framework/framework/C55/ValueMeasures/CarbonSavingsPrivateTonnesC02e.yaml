@@ -1,0 +1,13 @@
+code: "CarbonSavingsPrivateTonnesC02e"
+nameId: "Carbon generated – Private (Tonnes C02e)"
+descriptionId: "Carbon savings – Private (Tonnes C02e)"
+color: "#800218"
+consqUnitCode: "TonnesC02E"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,8 @@
+code: "RROText"
+nameId: "RROText"
+descriptionId: "Provide the rationale or assumptions for the answers provided above."
+type: "BigText"
+isMultiline: true
+isCloneable: true
+maximumLength: 10000
+listItems: []

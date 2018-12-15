@@ -1,0 +1,30 @@
+code: LiningUpRightImplementationPartners
+nameId: "Lining up Right Implementation Partners"
+descriptionId: "Lining up Right Implementation Partners"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) Not yet"
+  nameId: "A) Not yet"
+  value: 0.0277
+  isObsolete: false
+- code: "B) Not required"
+  nameId: "B) Not required"
+  value: 0
+  isObsolete: false
+- code: "C) Available vendors and system integrators (SI) not conversant with expected\
+    \ solution"
+  nameId: "C) Available vendors and system integrators (SI) not conversant with expected\
+    \ solution"
+  value: 0.0221333333
+  isObsolete: false
+- code: "D) Available vendors and system integrators familiar with expected solution"
+  nameId: "D) Available vendors and system integrators familiar with expected solution"
+  value: 0.0165666667
+  isObsolete: false
+- code: "E) Available vendors and system integrators have done this many times"
+  nameId: "E) Available vendors and system integrators have done this many times"
+  value: 0.011
+  isObsolete: false

@@ -1,0 +1,56 @@
+code: "SecurityRisk"
+nameId: "Security Risk"
+descriptionId: "Security Risk"
+groupCode: "Safety & Security"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "SecurityRisk"
+  nameId: "Security Risk"
+  valueMeasureCode: "SecurityRisk"
+  sequence: 53
+questionnaires:
+- code: "Automated Risk Mitigation-Security Risk-O"
+  nameId: "Automated Risk Mitigation"
+  descriptionId: "Security Risk Automated Mitigation"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "SecurityRisk"
+    consequenceClassName: "RiskConsequenceAutomaticOutcome"
+    likelihoodClassName: "RiskLikelihoodAutomaticOutcome"
+- code: "Manual Risk-Security Risk-B"
+  nameId: "Manual Risk"
+  descriptionId: "Security Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 42
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 114
+  - measurePromptCode: "Rationale"
+    sequence: 180
+  formulas:
+  - measureCode: "SecurityRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"
+- code: "Manual Risk-Security Risk-O"
+  nameId: "Manual Risk"
+  descriptionId: "Security Risk"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ManualRiskConsequence"
+    sequence: 58
+  - measurePromptCode: "ManualRiskProbability"
+    sequence: 130
+  formulas:
+  - measureCode: "SecurityRisk"
+    consequenceClassName: "RiskConsequenceManual"
+    likelihoodClassName: "RiskLikelihoodManual"

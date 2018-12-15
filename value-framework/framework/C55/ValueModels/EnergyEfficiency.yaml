@@ -1,0 +1,53 @@
+code: EnergyEfficiency
+nameId: "Energy Efficiency"
+descriptionId: "Energy Efficiency"
+groupCode: "Stewardship"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CO2Reductions"
+  nameId: "CO2 Reductions"
+  valueMeasureCode: "CO2Reductions"
+  sequence: 58
+- code: "EnergyEfficiency"
+  nameId: "Energy Efficiency"
+  valueMeasureCode: "EnergyEfficiency"
+  sequence: 37
+- code: "EnergySavingsTotal"
+  nameId: "Energy Savings Total"
+  valueMeasureCode: "EnergySavingsTotal"
+  sequence: 56
+- code: "EnergySavingsVVO"
+  nameId: "Energy Savings VVO"
+  valueMeasureCode: "EnergySavingsVVO"
+  sequence: 57
+questionnaires:
+- code: "Energy Efficiency-O"
+  nameId: "Energy Efficiency"
+  descriptionId: ""
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "PowerSavings"
+    sequence: 201
+  - measurePromptCode: "BenefitProbability"
+    sequence: 202
+  - measurePromptCode: "VVO"
+    sequence: 204
+  - measurePromptCode: "Rationale"
+    sequence: 210
+  formulas:
+  - measureCode: "CO2Reductions"
+    consequenceClassName: "CO2SavingsConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "EnergyEfficiency"
+    consequenceClassName: "EnergyEfficiencyConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "EnergySavingsTotal"
+    consequenceClassName: "EnergySavingsConsequence"
+    likelihoodClassName: "BenefitLikelihood"
+  - measureCode: "EnergySavingsVVO"
+    consequenceClassName: "VVOEnergySavingsConsequence"
+    likelihoodClassName: "BenefitLikelihood"

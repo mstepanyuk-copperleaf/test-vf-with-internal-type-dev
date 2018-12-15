@@ -1,0 +1,13 @@
+code: "EnergySavingsTotal"
+nameId: "Energy Savings Total"
+descriptionId: "Energy Savings Total"
+color: "#004601"
+consqUnitCode: "MegawattHour"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

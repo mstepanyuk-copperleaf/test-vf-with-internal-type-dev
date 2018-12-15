@@ -1,0 +1,10 @@
+code: "NoOfAccidents"
+nameId: "Number of car accidents (per year)"
+descriptionId: "Average number of car accidents per year."
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+minimumNumber: 0
+maximumNumber: 1000
+listItems: []

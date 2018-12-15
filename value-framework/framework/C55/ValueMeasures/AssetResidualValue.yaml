@@ -1,0 +1,13 @@
+code: "AssetResidualValue"
+nameId: "Asset residual value"
+descriptionId: "Asset residual value"
+color: "#800231"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

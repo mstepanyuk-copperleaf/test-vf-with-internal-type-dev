@@ -1,0 +1,8 @@
+code: HoursIncurredIfThisInvestmentIsNotUndertaken
+descriptionId: "Hours incurred if this investment is not undertaken"
+customFieldCode: "HoursIncurredIfThisInvestmentIsNotUndertaken"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Hours incurred if th"
+promptTextId: "Hours incurred if this investment is not undertaken"

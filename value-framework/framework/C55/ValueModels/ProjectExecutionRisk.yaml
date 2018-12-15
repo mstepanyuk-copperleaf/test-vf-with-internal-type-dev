@@ -1,0 +1,45 @@
+code: ProjectExecutionRisk
+nameId: "Project Execution Risk"
+descriptionId: "Project Execution Risk"
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "ProjectExecutionRisk"
+  nameId: "Project Execution Risk"
+  valueMeasureCode: "ProjectExecutionRisk"
+  sequence: 43
+questionnaires:
+- code: "Project Execution Risk-O"
+  nameId: "Project Execution Risk"
+  descriptionId: "Project Execution Risk"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "AreInitialEffortAndScheduleRealistic"
+    sequence: 65
+  - measurePromptCode: "HowWellDefinedWillProjectScopeBe"
+    sequence: 137
+  - measurePromptCode: "LiningUpRightImplementationPartners"
+    sequence: 185
+  - measurePromptCode: "MethodologyAndTrackRecord"
+    sequence: 206
+  - measurePromptCode: "PMsPreviousExperience"
+    sequence: 215
+  - measurePromptCode: "ProvenImplementationMethodology"
+    sequence: 221
+  - measurePromptCode: "SkillsToManageTheProject"
+    sequence: 224
+  - measurePromptCode: "TeamsRightInternalSkillset"
+    sequence: 226
+  - measurePromptCode: "TypeOfContract"
+    sequence: 228
+  - measurePromptCode: "VendorIndustryExperience"
+    sequence: 230
+  - measurePromptCode: "VendorTechnicalExperience"
+    sequence: 232
+  formulas:
+  - measureCode: "ProjectExecutionRisk"
+    consequenceClassName: "ProjectExecutionRiskConsequenceMonthly"

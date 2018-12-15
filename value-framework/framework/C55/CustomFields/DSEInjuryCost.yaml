@@ -1,0 +1,9 @@
+code: "DSEInjuryCost"
+nameId: "DSE Injury Cost (£)"
+descriptionId: "Using the average cost of an injury (all severities, including fatality)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 1000000
+listItems: []

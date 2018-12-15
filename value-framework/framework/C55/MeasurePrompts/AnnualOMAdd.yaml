@@ -1,0 +1,8 @@
+code: "AnnualOMAdd"
+descriptionId: ""
+customFieldCode: "AnnualOMAdd"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the annual O"
+promptTextId: "What is the annual O&M cost increase anticipated from this project?"

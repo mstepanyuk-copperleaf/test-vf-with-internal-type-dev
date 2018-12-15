@@ -1,0 +1,8 @@
+code: SkillsToManageTheProject
+descriptionId: ""
+customFieldCode: "SkillsToManageTheProject"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Skills to Manage the"
+promptTextId: "Do you have the skills to manage the project?"

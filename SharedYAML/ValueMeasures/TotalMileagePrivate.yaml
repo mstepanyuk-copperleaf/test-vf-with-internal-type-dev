@@ -1,0 +1,13 @@
+code: "TotalMileagePrivate"
+nameId: "Total mileage – Private"
+descriptionId: "Total mileage – Private"
+color: "#800214"
+consqUnitCode: "Mile"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

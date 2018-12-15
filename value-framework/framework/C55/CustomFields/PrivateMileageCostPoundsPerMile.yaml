@@ -1,0 +1,9 @@
+code: PrivateMileageCostPoundsPerMile
+nameId: "Private mileage cost (£ per mile)"
+descriptionId: "Private mileage cost (£ per mile)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 100
+listItems: []

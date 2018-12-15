@@ -1,0 +1,16 @@
+code: "ValueUnit"
+nameId: "Value Unit"
+descriptionId: "Units as described by the risk matrix."
+unitType: "UnitQuantity"
+literal:
+  editFormat: "0"
+  displayFormat: "#,##0.##;(#,##0.##);0"
+  symbol: "Value Units"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

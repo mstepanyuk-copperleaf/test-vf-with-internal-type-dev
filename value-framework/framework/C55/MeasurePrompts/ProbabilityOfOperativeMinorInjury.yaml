@@ -1,0 +1,8 @@
+code: ProbabilityOfOperativeMinorInjury
+descriptionId: ""
+customFieldCode: "ProbabilityOfInjury"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Probability of opera"
+promptTextId: "Probability of operative minor injury (%)?"

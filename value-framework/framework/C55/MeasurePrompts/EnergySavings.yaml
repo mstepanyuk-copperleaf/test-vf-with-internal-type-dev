@@ -1,0 +1,10 @@
+code: EnergySavings
+descriptionId: "If investment is completed, energy expected to be saved per year (e.g.\
+  \ reduced consumption) (KWh)"
+customFieldCode: "EnergySavings"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Energy Savings"
+promptTextId: "If investment is completed, how much energy is expected to be saved\
+  \ per year (e.g. reduced consumption)? (KWh)"

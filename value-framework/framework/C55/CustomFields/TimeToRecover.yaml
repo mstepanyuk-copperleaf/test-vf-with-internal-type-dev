@@ -1,0 +1,10 @@
+code: "TimeToRecover"
+nameId: "Time to Recover"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 1
+isCurrencyValue: false
+maximumNumber: 8760
+listItems: []

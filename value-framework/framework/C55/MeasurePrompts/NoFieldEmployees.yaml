@@ -1,0 +1,8 @@
+code: "NoFieldEmployees"
+descriptionId: ""
+customFieldCode: "NoFieldEmployees"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many field emplo"
+promptTextId: "How many field employees are impacted , following this investment?"

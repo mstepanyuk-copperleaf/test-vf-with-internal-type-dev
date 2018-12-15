@@ -1,0 +1,16 @@
+code: AccountType
+nameId: "Account Type"
+descriptionId: "Account Type"
+type: "DropDownList"
+isMultiline: false
+isCloneable: true
+listType: "Custom"
+listItems:
+- code: "A) Capital"
+  nameId: "A) Capital"
+  value: 1
+  isObsolete: false
+- code: "B) OMA"
+  nameId: "B) OMA"
+  value: 2
+  isObsolete: false

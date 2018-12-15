@@ -1,0 +1,8 @@
+code: BusinessContinuityImpactLevel
+descriptionId: ""
+customFieldCode: "BusinessContinuityImpactLevel"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What would be the im"
+promptTextId: "What would be the impact on each employee?"

@@ -1,0 +1,10 @@
+code: BusinessContinuityEmployeesAffected
+nameId: "Business Continuity Employees Affected"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 10000
+listItems: []

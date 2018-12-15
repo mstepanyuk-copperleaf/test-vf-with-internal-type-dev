@@ -1,0 +1,9 @@
+code: CostOfMemberOfPublicMinorInjury
+nameId: "Cost of member of public minor injury (£)"
+descriptionId: "Cost of member of public minor injury (£)"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 2000000
+listItems: []

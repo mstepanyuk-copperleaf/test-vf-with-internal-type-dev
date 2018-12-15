@@ -1,0 +1,13 @@
+code: "DirectCostRiskPDF"
+nameId: "Direct Cost Risk (PDF)"
+descriptionId: "Direct Cost Risk, calculated using Probability Density Function (PDF)."
+color: "#0680B2"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

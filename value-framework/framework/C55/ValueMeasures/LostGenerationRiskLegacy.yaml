@@ -1,0 +1,14 @@
+code: "LostGenerationRiskLegacy"
+nameId: "Lost Generation Risk (Legacy)"
+descriptionId: "Lost Generation Risk (Legacy) is used to recreate the legacy behavior\
+  \ of asset analytics.  This value measure should not be used outside of asset analytics."
+color: "#E64A45"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "Ignore"

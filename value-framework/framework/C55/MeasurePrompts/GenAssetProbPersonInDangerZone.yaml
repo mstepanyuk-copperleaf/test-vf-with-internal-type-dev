@@ -1,0 +1,10 @@
+code: GenAssetProbPersonInDangerZone
+descriptionId: "Estimate the annual hours personnel are in the area and divide by\
+  \ 8760 hours/year."
+customFieldCode: "GenAssetProbPersonInDangerZone"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Probability of perso"
+promptTextId: "Probability of person in danger zone (%)"
+defaultValue: "0"

@@ -1,0 +1,13 @@
+code: "CarbonRisk"
+nameId: "Carbon risk"
+descriptionId: "Carbon risk"
+color: "#800174"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

@@ -1,0 +1,9 @@
+code: "OtherInjuryCost"
+nameId: "Other injury cost (£)"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+minimumNumber: 0
+maximumNumber: 100000
+listItems: []

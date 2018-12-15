@@ -1,0 +1,8 @@
+code: PenaltyAmount
+descriptionId: "Penalty or fine amount"
+customFieldCode: "PenaltyAmount"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Penalty or fine amou"
+promptTextId: "Penalty or fine amount"

@@ -1,0 +1,13 @@
+code: "NumberOfOperativeFatalities"
+nameId: "Number of operative fatalities"
+descriptionId: "Number of operative fatalities"
+color: "#800194"
+consqUnitCode: "NumberOfFatalities"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

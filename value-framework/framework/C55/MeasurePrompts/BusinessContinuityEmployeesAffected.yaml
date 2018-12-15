@@ -1,0 +1,9 @@
+code: BusinessContinuityEmployeesAffected
+descriptionId: ""
+customFieldCode: "BusinessContinuityEmployeesAffected"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many employees w"
+promptTextId: "How many employees would be affected by the event that this project\
+  \ is designed to avoid?"

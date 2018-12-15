@@ -1,0 +1,13 @@
+code: "CO2Reductions"
+nameId: "CO2 Reductions"
+descriptionId: "CO2 Reductions"
+color: "#004603"
+consqUnitCode: "Tonne"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

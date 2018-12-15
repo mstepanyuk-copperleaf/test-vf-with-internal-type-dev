@@ -1,0 +1,13 @@
+code: "ReplacementCostNormal"
+nameId: "Replacement Cost Normal"
+descriptionId: "Replacement Cost Normal"
+color: "#5D8CDB"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "FinancialCost"

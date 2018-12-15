@@ -1,0 +1,68 @@
+- code: "None"
+  nameId: "None"
+  defaultDescriptionId: "Event unlikely to occur in next 10,000 years"
+  maxProbability: 0.0001
+  averageProbability: 0
+  measureDescriptions: []
+- code: "Once in 10,000 years"
+  nameId: "Once in 10,000 years"
+  defaultDescriptionId: "Approximately 0.01% chance of event occurring this year (e.g.\
+    \ 1 in 10,000 year event)"
+  maxProbability: 0.0002
+  averageProbability: 0.0001
+  measureDescriptions: []
+- code: "Once in 3,333 years"
+  nameId: "Once in 3,333 years"
+  defaultDescriptionId: "Approximately 0.03% chance of event occurring this year (e.g.\
+    \ 1 in 3,333 year event)"
+  maxProbability: 0.0007
+  averageProbability: 0.0003
+  measureDescriptions: []
+- code: "Once in 1,000 years"
+  nameId: "Once in 1,000 years"
+  defaultDescriptionId: "Approximately 0.1% chance of event occurring this year (e.g.\
+    \ 1 in 1,000 year event)"
+  maxProbability: 0.002
+  averageProbability: 0.001
+  measureDescriptions: []
+- code: "Once in 333 years"
+  nameId: "Once in 333 years"
+  defaultDescriptionId: "Approximately 0.3% chance of event occurring this year (e.g.\
+    \ 1 in 333 year event)"
+  maxProbability: 0.007
+  averageProbability: 0.003
+  measureDescriptions: []
+- code: "Once in 100 years"
+  nameId: "Once in 100 years"
+  defaultDescriptionId: "Approximately 1% chance of event occurring this year (e.g.\
+    \ 1 in 100 year event)"
+  maxProbability: 0.02
+  averageProbability: 0.01
+  measureDescriptions: []
+- code: "Once in 33 years"
+  nameId: "Once in 33 years"
+  defaultDescriptionId: "Approximately 3% chance of event occurring this year (e.g.\
+    \ 1 in 33 year event)"
+  maxProbability: 0.07
+  averageProbability: 0.03
+  measureDescriptions: []
+- code: "Once in 10 years"
+  nameId: "Once in 10 years"
+  defaultDescriptionId: "Approximately 10% chance of event occurring this year (e.g.\
+    \ 1 in 10 year event)"
+  maxProbability: 0.2
+  averageProbability: 0.1
+  measureDescriptions: []
+- code: "Once in 3 years"
+  nameId: "Once in 3 years"
+  defaultDescriptionId: "Approximately 30% chance of event occurring this year (e.g.\
+    \ 1 in 3 year event)"
+  maxProbability: 0.95
+  averageProbability: 0.3
+  measureDescriptions: []
+- code: "Almost Certain"
+  nameId: "Almost Certain"
+  defaultDescriptionId: "Imminent (>95% chance of occurring this year)"
+  maxProbability: 1
+  averageProbability: 0.97
+  measureDescriptions: []

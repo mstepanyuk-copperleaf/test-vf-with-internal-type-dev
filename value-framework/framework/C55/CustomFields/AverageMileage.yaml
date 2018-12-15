@@ -1,0 +1,9 @@
+code: "AverageMileage"
+nameId: "Average mileage"
+descriptionId: "Average mileage"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+minimumNumber: 0
+maximumNumber: 100000
+listItems: []

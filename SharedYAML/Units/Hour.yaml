@@ -1,0 +1,16 @@
+code: "Hour"
+nameId: "Hour"
+descriptionId: "Hour"
+unitType: "Time"
+literal:
+  editFormat: "0"
+  displayFormat: "#,##0;(#,##0);0"
+  symbol: "h"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

@@ -1,0 +1,13 @@
+code: "TotalInvestmentCost"
+nameId: "Total Investment Cost"
+descriptionId: "Total Investment Cost"
+color: "#004600"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "FinancialCost"

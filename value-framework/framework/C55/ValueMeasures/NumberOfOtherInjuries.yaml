@@ -1,0 +1,13 @@
+code: "NumberOfOtherInjuries"
+nameId: "Number of other injuries"
+descriptionId: "Number of other injuries"
+color: "#800204"
+consqUnitCode: "NumberOfOtherInjuries"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

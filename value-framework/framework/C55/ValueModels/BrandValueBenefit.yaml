@@ -1,0 +1,30 @@
+code: BrandValueBenefit
+nameId: "Brand Value Benefit"
+descriptionId: "Brand Value Benefit"
+groupCode: "Stakeholders & Community"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "BrandValueBenefit"
+  nameId: "Brand Value Benefit"
+  valueMeasureCode: "BrandValueBenefit"
+  sequence: 6
+questionnaires:
+- code: "Public Perception Benefit-O"
+  nameId: "Public Perception Benefit"
+  descriptionId: "Brand Value Benefit"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "PercentageOfCustomersImpacted"
+    sequence: 66
+  - measurePromptCode: "BenefitProbability"
+    sequence: 138
+  - measurePromptCode: "Rationale"
+    sequence: 186
+  formulas:
+  - measureCode: "BrandValueBenefit"
+    consequenceClassName: "PublicPerceptionConsequence"
+    likelihoodClassName: "BenefitLikelihood"

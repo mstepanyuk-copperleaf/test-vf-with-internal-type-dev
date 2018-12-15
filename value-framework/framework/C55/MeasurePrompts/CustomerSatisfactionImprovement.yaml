@@ -1,0 +1,10 @@
+code: "CustomerSatisfactionImprovement"
+descriptionId: "What is the expected impact of this project on the percentage of customers\
+  \ answering satisfied or very satisfied on the next utility survey?"
+customFieldCode: "CustomerSatisfactionImprovement"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Customer Satisfactio"
+promptTextId: "What is the expected impact of this project on the percentage of customers\
+  \ answering satisfied or very satisfied on the next utility survey?"

@@ -1,0 +1,13 @@
+code: "CustomerSatisfactionBenefit"
+nameId: "Customer Satisfaction Benefit"
+descriptionId: "Customer Satisfaction Benefit"
+color: "#8E8E38"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,9 @@
+code: "ContractViolation"
+descriptionId: "Contract Violation"
+customFieldCode: "ContractViolation"
+isTimeVarying: true
+isRequired: false
+isComment: true
+shortPromptId: "Contract Violation"
+promptTextId: "If this investment is not completed, will this result in violation\
+  \ of a signed contract commitment?"

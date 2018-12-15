@@ -1,0 +1,13 @@
+code: "FinancialRisk"
+nameId: "Financial Risk"
+descriptionId: "Financial Risk"
+color: "#023FA8"
+consqUnitCode: "ValueUnit"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

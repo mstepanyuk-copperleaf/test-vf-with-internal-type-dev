@@ -1,0 +1,34 @@
+code: EnvironmentalBenefit
+nameId: "Environmental Benefit"
+descriptionId: "Environmental Benefit"
+groupCode: "Operations & Reliability"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "EnvironmentalBenefit"
+  nameId: "Environmental Benefit"
+  valueMeasureCode: "EnvironmentalBenefit"
+  sequence: 19
+questionnaires:
+- code: "Environmental Benefit-O"
+  nameId: "Environmental Benefit"
+  descriptionId: "Environmental Benefit"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "CO2Reduction"
+    sequence: 23
+  - measurePromptCode: "SF6Reduction"
+    sequence: 95
+  - measurePromptCode: "EnergySavings"
+    sequence: 162
+  - measurePromptCode: "BenefitProbability"
+    sequence: 201
+  - measurePromptCode: "Rationale"
+    sequence: 211
+  formulas:
+  - measureCode: "EnvironmentalBenefit"
+    consequenceClassName: "EnvironmentalBenefitConsequence"
+    likelihoodClassName: "BenefitLikelihood"

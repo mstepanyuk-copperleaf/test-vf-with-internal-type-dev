@@ -1,0 +1,13 @@
+code: "HealthAndSafetyRiskMinorInjuries"
+nameId: "Health and safety risk (Minor injuries)"
+descriptionId: "Health and safety risk (Minor injuries)"
+color: "#800198"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

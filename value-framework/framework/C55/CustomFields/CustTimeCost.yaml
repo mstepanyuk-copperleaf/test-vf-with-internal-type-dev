@@ -1,0 +1,10 @@
+code: "CustTimeCost"
+nameId: "Customer time – cost per hour"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: true
+maximumNumber: 10000
+listItems: []

@@ -1,0 +1,10 @@
+code: PercentageOfCustomersImpacted
+descriptionId: "Percentage of customers that will benefit out of the entire customer\
+  \ base."
+customFieldCode: "PercentageOfCustomersImpacted"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "If this investment i"
+promptTextId: "If this investment is improving aesthetics, reducing noise or EMF what\
+  \ percentage of our customers will be affected by the improvement?"

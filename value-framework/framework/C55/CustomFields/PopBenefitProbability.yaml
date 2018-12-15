@@ -1,0 +1,9 @@
+code: "PopBenefitProbability"
+nameId: "POP Benefit Probability"
+descriptionId: ""
+type: "Number"
+isMultiline: false
+isCloneable: true
+numberDecimals: 0
+maximumNumber: 100
+listItems: []

@@ -1,0 +1,29 @@
+code: CustomerSatisfactionBenefit
+nameId: "Customer Satisfaction Benefit"
+descriptionId: "Customer Satisfaction Benefit is intended to gauge customer satisfaction\
+  \ with the service they receive from the organization."
+groupCode: "Customers"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CustomerSatisfactionBenefit"
+  nameId: "Customer Satisfaction Benefit"
+  valueMeasureCode: "CustomerSatisfactionBenefit"
+  sequence: 30
+questionnaires:
+- code: "CustomerSatisfactionBen-Customer Satisfaction Benefit-O"
+  nameId: "Customer Satisfaction Benefit"
+  descriptionId: "Customer Satisfaction Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "CustomerSatisfactionImprovement"
+    sequence: 1
+  - measurePromptCode: "BenefitProbabilityNTV"
+    sequence: 2
+  formulas:
+  - measureCode: "CustomerSatisfactionBenefit"
+    consequenceClassName: "CustomerServiceBenConsequenceFormula"
+    likelihoodClassName: "ProjectProbabilityFormula"

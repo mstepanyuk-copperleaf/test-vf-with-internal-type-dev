@@ -1,0 +1,13 @@
+code: "LostGenerationRisk"
+nameId: "Lost Generation Risk"
+descriptionId: "Lost Generation Risk"
+color: "#770000"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

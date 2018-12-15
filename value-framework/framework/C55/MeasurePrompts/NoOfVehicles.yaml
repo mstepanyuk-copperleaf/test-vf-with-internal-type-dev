@@ -1,0 +1,8 @@
+code: "NoOfVehicles"
+descriptionId: ""
+customFieldCode: "NoOfVehicles"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many vehicles ar"
+promptTextId: "How many vehicles are affected?"
